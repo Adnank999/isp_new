@@ -65,7 +65,7 @@ const Home1 = () => {
                     data-delay="1.5s"
                     data-duration=".3s"
                   >
-                    Unbeatable High Speed <br /> Internet
+                    Unbeatable High <br /> Speed  Internet
                   </h1>
                   <h2
                     data-animation="fadeInUp"
@@ -212,7 +212,7 @@ const Home1 = () => {
                     data-delay="1.3s"
                     data-duration=".3s"
                   >
-                    Unbeatable Speed
+                   Frustration with Slow Speeds?
                   </h6>
                   <h1
                     className="text-white"
@@ -220,7 +220,7 @@ const Home1 = () => {
                     data-delay="1.5s"
                     data-duration=".3s"
                   >
-                    Frustration with Slow Speeds? <br /> We Ensure Buffer-Free Streaming.
+                      We Ensure Buffer-Free Streaming.
                   </h1>
                   <h2
                     data-animation="fadeInUp"
