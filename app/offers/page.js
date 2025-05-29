@@ -39,14 +39,14 @@ const page = () => {
   ];
   return (
     <NetBandLayout header={1} footer={2}>
-      <Breadcrumb pageTitle={"our services"} />
+      <Breadcrumb pageTitle={"our offers"} />
       <section className="service-section fix section-padding">
         <div className="container">
           <div className="section-title text-center">
             <span className="wow fadeInUp">our fucusable services</span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              How do we work to help you <br />
-              in Startup Business
+              How we help you <br />
+              to Enjoy non-stop internet with no bounds
             </h2>
           </div>
           <div className="row">
@@ -98,7 +98,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Satellite TV</Link>
+                    <Link href="service-details">Low Latency</Link>
                   </h3>
                   <p>We approached WiaTech with complex project deliver</p>
                   <Link href="service-details" className="arrow-icon">
@@ -117,7 +117,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">TV box</Link>
+                    <Link href="service-details">Upstreaming</Link>
                   </h3>
                   <p>We approached WiaTech with complex project deliver</p>
                   <Link href="service-details" className="arrow-icon">
@@ -136,7 +136,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Hosting Service</Link>
+                    <Link href="service-details">Cutting Edge Solutions</Link>
                   </h3>
                   <p>
                     Our service offerings enhance experience throughout highly
@@ -157,7 +157,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Satelite TV</Link>
+                    <Link href="service-details">Dedicated Internet</Link>
                   </h3>
                   <p>
                     Our service offerings enhance experience throughout highly
@@ -199,7 +199,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Broadband</Link>
+                    <Link href="service-details">24/7 Support</Link>
                   </h3>
                   <p>We approached WiaTech with complex project deliver</p>
                   <Link href="service-details" className="arrow-icon">
@@ -214,18 +214,14 @@ const page = () => {
       {/*<< Cta Banner Section Start >>*/}
       <section
         className="cta-banner-section bg-cover section-padding"
-        style={{ backgroundImage: 'url("assets/img/banner/01.jpg")' }}
+        style={{ backgroundImage: 'url("assets/img/banner/03.jpg")' }}
       >
         <div className="container">
           <div className="cta-banner-wrapper section-padding pt-0">
             <div className="section-title mb-0">
-              <span className="wow fadeInUp">5m+ Trusted Our Clients</span>
+              <span className="wow fadeInUp" style={{color: "black"}}> 5m+ Trusted Our Clients</span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                Need It advisor For your business ? <br />
-                Please Call :{" "}
-                <a href="tel:123884400" className="theme-color-1">
-                  (123) 884400
-                </a>
+                Why Everyone is choosing <br/> Cherry Internet?
               </h2>
             </div>
             <Link
@@ -255,7 +251,7 @@ const page = () => {
                     <i className="flaticon-database" />
                   </div>
                   <div className="content">
-                    <h3>Voice Over Protocol</h3>
+                    <h3>Bufferless video call</h3>
                     <p>Average time to resolve a cyber attack.</p>
                   </div>
                 </div>
@@ -269,7 +265,7 @@ const page = () => {
                     <i className="flaticon-server" />
                   </div>
                   <div className="content">
-                    <h3>Data Backup</h3>
+                    <h3>Nonstop social media scrolls</h3>
                     <p>Average time to resolve a cyber attack.</p>
                   </div>
                 </div>
@@ -283,7 +279,7 @@ const page = () => {
                     <i className="flaticon-connection" />
                   </div>
                   <div className="content">
-                    <h3>Fast Connected</h3>
+                    <h3>24/7 support</h3>
                     <p>Average time to resolve a cyber attack.</p>
                   </div>
                 </div>
@@ -390,7 +386,7 @@ const page = () => {
         </div>
       </section> */}
       {/*<< Contact Section Start >>*/}
-      <ContactSection />
+      {/* <ContactSection /> */}
     </NetBandLayout>
   );
 };

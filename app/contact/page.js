@@ -31,8 +31,7 @@ const page = () => {
                         <div className="content">
                           <h5>Location</h5>
                           <p>
-                            55 Main street, 2nd block, <br />
-                            Melbourne, Australia
+                            Umesh Datta road, Chak bazar, Dhaka, Bangladesh.
                           </p>
                         </div>
                       </div>
@@ -44,8 +43,8 @@ const page = () => {
                         </div>
                         <div className="content">
                           <h5>Phone</h5>
-                          <a href="tel:+09354587874">+09 354 587 874 </a> <br />
-                          <a href="tel:+01368567894">+01 368 567 894</a>
+                          <a href="tel:+09613338833">+09613338833 </a> <br />
+                       
                         </div>
                       </div>
                     </div>
@@ -56,13 +55,13 @@ const page = () => {
                         </div>
                         <div className="content">
                           <h5>Email</h5>
-                          <a href="mailto:info@example.com" className="link">
-                            info@example.com
+                          <a href="mailto:info@internetcherry.com" className="link">
+                            info@internetcherry.com
                           </a>{" "}
                           <br />
-                          <a href="mailto:info@example.com" className="link">
+                          {/* <a href="mailto:info@example.com" className="link">
                             info@example.com
-                          </a>
+                          </a> */}
                         </div>
                       </div>
                     </div>
@@ -183,11 +182,12 @@ const page = () => {
       <div className="map-section">
         <div className="google-map wow fadeInUp" data-wow-delay=".7s">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.749415210744!2d90.39504550000001!3d23.720641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8e0d5aeeba9%3A0xf8951c7b6d036497!2sUmesh%20Datta%20Rd%2C%20Dhaka!5e0!3m2!1sde!2sbd!4v1748512378888!5m2!1sde!2sbd"
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
           />
+        
         </div>
       </div>
     </NetBandLayout>

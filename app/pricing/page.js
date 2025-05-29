@@ -307,9 +307,9 @@ const page = () => {
                       <h3>Cherry Seed</h3>
 
                       <p>Installation Charge: none</p>
-                      {/* <span>
-                        <em>5%</em> VAT Included
-                      </span> */}
+                      <span class="cardPrice1">
+                        <h2>15 Mbps</h2>
+                      </span>
                     </div>
                     <div className="price-icon">
                       <div className="icon">
@@ -352,7 +352,7 @@ const page = () => {
                     </ul>
                     <div className="price-button">
                       <h3>
-                        <i>৳</i>500 
+                        <i>৳</i>500
                         <span>/mo</span>
                       </h3>
                       <Link href="contact" className="theme-btn">
@@ -363,7 +363,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="pricing-wrapper active">
+            <div className="pricing-wrapper ">
               <div className="row justify-content-between align-items-center">
                 <div className="col-xxl-6 col-xl-6 col-lg-12">
                   <div className="pricing-content-box d-flex align-items-center justify-content-between">
@@ -371,9 +371,9 @@ const page = () => {
                       <h3>Cherry Spark</h3>
 
                       <p>Installation Charge: none</p>
-                      {/* <span>
-                        <em>5%</em> VAT Included
-                      </span> */}
+                       <span class="cardPrice2">
+                        <h2>25 Mbps</h2>
+                      </span>
                     </div>
                     <div className="price-icon">
                       <div className="icon">
@@ -416,7 +416,7 @@ const page = () => {
                     </ul>
                     <div className="price-button">
                       <h3>
-                        <i>৳</i>700 
+                        <i>৳</i>700
                         <span>/mo</span>
                       </h3>
                       <Link href="contact" className="theme-btn">
@@ -427,17 +427,17 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="pricing-wrapper active">
+            <div className="pricing-wrapper ">
               <div className="row justify-content-between align-items-center">
                 <div className="col-xxl-6 col-xl-6 col-lg-12">
                   <div className="pricing-content-box d-flex align-items-center justify-content-between">
                     <div className="price-content">
-                      <h3>Cherry Bloom</h3>
+                      <h5>Cherry Bloom</h5>
 
                       <p>Installation Charge: none</p>
-                      {/* <span>
-                        <em>5%</em> VAT Included
-                      </span> */}
+                       <span class="cardPrice3">
+                        <h2>40 Mbps</h2>
+                      </span>
                     </div>
                     <div className="price-icon">
                       <div className="icon">
@@ -480,7 +480,7 @@ const page = () => {
                     </ul>
                     <div className="price-button">
                       <h3>
-                        <i>৳</i>1000 
+                        <i>৳</i>1000
                         <span>/mo</span>
                       </h3>
                       <Link href="contact" className="theme-btn">
@@ -491,7 +491,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="pricing-wrapper active">
+            <div className="pricing-wrapper ">
               <div className="row justify-content-between align-items-center">
                 <div className="col-xxl-6 col-xl-6 col-lg-12">
                   <div className="pricing-content-box d-flex align-items-center justify-content-between">
@@ -499,9 +499,9 @@ const page = () => {
                       <h3>Cherry Pop</h3>
 
                       <p>Installation Charge: none</p>
-                      {/* <span>
-                        <em>5%</em> VAT Included
-                      </span> */}
+                       <span class="cardPrice4">
+                        <h2>50 Mbps</h2>
+                      </span>
                     </div>
                     <div className="price-icon">
                       <div className="icon">
@@ -544,7 +544,7 @@ const page = () => {
                     </ul>
                     <div className="price-button">
                       <h3>
-                        <i>৳</i>1200 
+                        <i>৳</i>1200
                         <span>/mo</span>
                       </h3>
                       <Link href="contact" className="theme-btn">
@@ -555,7 +555,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="pricing-wrapper active">
+            <div className="pricing-wrapper ">
               <div className="row justify-content-between align-items-center">
                 <div className="col-xxl-6 col-xl-6 col-lg-12">
                   <div className="pricing-content-box d-flex align-items-center justify-content-between">
@@ -563,9 +563,9 @@ const page = () => {
                       <h3>Cherry Rush</h3>
 
                       <p>Installation Charge: none</p>
-                      {/* <span>
-                        <em>5%</em> VAT Included
-                      </span> */}
+                       <span class="cardPrice1">
+                        <h2>60 Mbps</h2>
+                      </span>
                     </div>
                     <div className="price-icon">
                       <div className="icon">
@@ -608,7 +608,7 @@ const page = () => {
                     </ul>
                     <div className="price-button">
                       <h3>
-                        <i>৳</i>1500 
+                        <i>৳</i>1500
                         <span>/mo</span>
                       </h3>
                       <Link href="contact" className="theme-btn">
@@ -619,7 +619,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="pricing-wrapper active">
+            <div className="pricing-wrapper ">
               <div className="row justify-content-between align-items-center">
                 <div className="col-xxl-6 col-xl-6 col-lg-12">
                   <div className="pricing-content-box d-flex align-items-center justify-content-between">
@@ -627,9 +627,9 @@ const page = () => {
                       <h3>Cherry Blast</h3>
 
                       <p>Installation Charge: none</p>
-                      {/* <span>
-                        <em>5%</em> VAT Included
-                      </span> */}
+                       <span class="cardPrice2">
+                        <h2>80 Mbps</h2>
+                      </span>
                     </div>
                     <div className="price-icon">
                       <div className="icon">
@@ -683,7 +683,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="pricing-wrapper active">
+            <div className="pricing-wrapper">
               <div className="row justify-content-between align-items-center">
                 <div className="col-xxl-6 col-xl-6 col-lg-12">
                   <div className="pricing-content-box d-flex align-items-center justify-content-between">
@@ -691,9 +691,9 @@ const page = () => {
                       <h3>Cherry Blaze</h3>
 
                       <p>Installation Charge: none</p>
-                      {/* <span>
-                        <em>5%</em> VAT Included
-                      </span> */}
+                       <span class="cardPrice3">
+                        <h2>100 Mbps</h2>
+                      </span>
                     </div>
                     <div className="price-icon">
                       <div className="icon">
@@ -736,7 +736,7 @@ const page = () => {
                     </ul>
                     <div className="price-button">
                       <h3>
-                        <i>৳</i>3000 
+                        <i>৳</i>3000
                         <span>/mo</span>
                       </h3>
                       <Link href="contact" className="theme-btn">
@@ -747,7 +747,7 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="pricing-wrapper active">
+            <div className="pricing-wrapper ">
               <div className="row justify-content-between align-items-center">
                 <div className="col-xxl-6 col-xl-6 col-lg-12">
                   <div className="pricing-content-box d-flex align-items-center justify-content-between">
@@ -755,9 +755,9 @@ const page = () => {
                       <h3>Cherry Max</h3>
 
                       <p>Installation Charge: none</p>
-                      {/* <span>
-                        <em>5%</em> VAT Included
-                      </span> */}
+                      <span class="cardPrice4">
+                        <h2>150 Mbps</h2>
+                      </span>
                     </div>
                     <div className="price-icon">
                       <div className="icon">

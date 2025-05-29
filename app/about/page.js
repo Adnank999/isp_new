@@ -48,8 +48,8 @@ const page = () => {
           <div className="section-title text-center">
             <span className="wow fadeInUp">our fucusable services</span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              How do we work to help you <br />
-              in Startup Business
+              How we help you <br />
+              to Enjoy non-stop internet with no bounds
             </h2>
           </div>
           <div className="row">
@@ -101,9 +101,9 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Satellite TV</Link>
+                    <Link href="service-details">Low Latency</Link>
                   </h3>
-                  <p>We approached WiaTech with complex project deliver</p>
+                  <p>We offer low latency internet services 24/7</p>
                   <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
                   </Link>
@@ -120,9 +120,9 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">TV box</Link>
+                    <Link href="service-details">Upstream</Link>
                   </h3>
-                  <p>We approached WiaTech with complex project deliver</p>
+                  <p>Our upstream services quality is better than others</p>
                   <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
                   </Link>

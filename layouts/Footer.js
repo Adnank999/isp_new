@@ -251,8 +251,8 @@ const Footer2 = () => {
                     amazing things.
                   </p>
                   <span>Interested in working with us?</span> <br />
-                  <a href="mailto:info@example.com" className="link">
-                    info@example.com
+                  <a href="mailto:info@internetcherry.com" className="link">
+                    info@internetcherry.com
                   </a>
                   <div className="social-icon d-flex align-items-center">
                     <a href="#">
@@ -334,12 +334,9 @@ const Footer2 = () => {
                   <h5>Address:</h5>
                 </div>
                 <div className="footer-address-text">
-                  <p>570 8th Ave, New York,NY 10018 United States</p>
-                  <h5>Hours:</h5>
-                  <p>
-                    9.30am – 6.30pm <br />
-                    Monday to Friday
-                  </p>
+                  <p>Umesh Datta road, Chak bazar, Dhaka, Bangladesh.</p>
+                  <h5>Call Us:</h5>
+                  <a style={{color: "#ffffff"}} href="tel:+09613338833">+09613338833</a>
                 </div>
               </div>
             </div>
@@ -377,8 +374,8 @@ const Footer2 = () => {
         <div className="container">
           <div className="footer-wrapper d-flex align-items-center justify-content-between">
             <p className="wow fadeInLeft color-2" data-wow-delay=".3s">
-              Copyright © 2025 <Link href="/">Cherry Enterprise</Link>. All Rights
-              Reserved.
+              Copyright © 2025 <Link href="/">Cherry Enterprise</Link>. All
+              Rights Reserved.
             </p>
             <ul className="footer-menu wow fadeInRight" data-wow-delay=".5s">
               <li>

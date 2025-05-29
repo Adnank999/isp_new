@@ -69,13 +69,13 @@ const Header1 = ({ openSidebar, single, menus }) => {
             <ul className="contact-list">
               <li>
                 <i className="far fa-envelope" />
-                <a href="mailto:info@example.com" className="link">
-                  info@example.com
+                <a href="mailto:info@internetcherry.com" className="link">
+                  info@internetcherry.com
                 </a>
               </li>
               <li>
                 <i className="fas fa-map-marker-alt" />
-                55 Main Street, 2nd block, Malborne ,Australia
+                Umesh Datta road, Chak bazar, Dhaka, Bangladesh.
               </li>
             </ul>
             <div className="top-right">
@@ -133,7 +133,7 @@ const Header1 = ({ openSidebar, single, menus }) => {
                     <div className="content">
                       <p>Phone:</p>
                       <h6>
-                        <a href="tel:+23645689622">+236 (456) 896 22</a>
+                        <a href="tel:+09613338833">+09613338833</a>
                       </h6>
                     </div>
                   </div>
