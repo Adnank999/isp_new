@@ -6,30 +6,30 @@ const NetBandAccordion = ({
   items = [
     {
       id: 1,
-      title: "What broadband packages are available?",
+      title: "How fast can I get installed?",
       content:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit .",
+        "Most installations are completed within 24 hours of your request.",
       animationDelay: ".3s",
     },
     {
       id: 2,
-      title: "How can I find the best broadband deals in my area?",
+      title: " Do I need to buy a router?",
       content:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit .",
+        "Yes,but we also provide a high-performance router (extra charge applicable).",
       animationDelay: ".5s",
     },
     {
       id: 3,
-      title: "Need help to choose the best broadband deal?",
+      title: "What if I’m not satisfied with the service?",
       content:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit .",
+        "We offer a 30-day money-back guarantee—no questions asked.",
       animationDelay: ".7s",
     },
     {
       id: 4,
-      title: "How to experience the magic of internet?",
+      title: " Can I upgrade my plan later if I need more speed?",
       content:
-        "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit .",
+        "Absolutely. You can upgrade at any time with just a quick call.",
       animationDelay: ".9s",
     },
   ],

@@ -27,7 +27,7 @@ const page = () => {
               <div className="single-feature-items">
                 <div className="content">
                   <span>Features</span>
-                  <h3>Streaming</h3>
+                  <h3>Unlimited High-Speed Plans</h3>
                 </div>
                 <div className="icon">
                   <i className="flaticon-smart-tv-1" />
@@ -41,7 +41,7 @@ const page = () => {
               <div className="single-feature-items active">
                 <div className="content">
                   <span>Features</span>
-                  <h3>Ultra Fast Internet</h3>
+                  <h3>Seamless Streaming & Browsing</h3>
                 </div>
                 <div className="icon">
                   <i className="flaticon-connection" />
@@ -55,7 +55,7 @@ const page = () => {
               <div className="single-feature-items">
                 <div className="content">
                   <span>Features</span>
-                  <h3>All for Mobile</h3>
+                  <h3>Always Reliable</h3>
                 </div>
                 <div className="icon">
                   <i className="flaticon-smart-tv-3" />
@@ -107,29 +107,30 @@ const page = () => {
               <div className="col-lg-6 mt-5 mt-lg-0">
                 <div className="about-content">
                   <div className="section-title">
-                    <span className="wow fadeInUp">About Cherry Enterprise</span>
+                    <span className="wow fadeInUp">
+                      About Cherry Enterprise
+                    </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Get streaming with your internet service
+                      Why Everybody is Using CherryInternet?
                     </h2>
                   </div>
                   <p
                     className=" mt-4 mt-md-0 wow fadeInUp"
                     data-wow-delay=".5s"
                   >
-                    Transmds is the world’s driving worldwide coordinations
-                    supplier — we uphold industry and exchange the worldwide
-                    trade of merchandi
+                    To enjoy non-stop connectivity without worrying about data
+                    caps. Our network is built to deliver consistent performance
+                    no matter how many devices you’re using.
                   </p>
                   <div className="circle-progress-bar-wrapper">
                     <div
                       className="single-circle-bar wow fadeInUp"
                       data-wow-delay=".3s"
                     >
-                      <ProgressBar value={88} />
+                      <ProgressBar value={90} />
                       <div className="content">
                         <h6>
-                          Free Installation <br />
-                          Ultrafast Connect
+                          Client Retention <br />
                         </h6>
                       </div>
                     </div>
@@ -137,27 +138,24 @@ const page = () => {
                       className="single-circle-bar wow fadeInUp"
                       data-wow-delay=".5s"
                     >
-                      <ProgressBar value={93} />
+                      <ProgressBar value={100} />
                       <div className="content">
-                        <h6>
-                          Real Technology <br />
-                          Solutions
-                        </h6>
+                        <h6>Modern Technology</h6>
                       </div>
                     </div>
                   </div>
                   <ul className="about-list wow fadeInUp" data-wow-delay=".7s">
                     <li>
                       <i className="far fa-check me-2" />
-                      Professional Team Member
+                      Bufferless video call
                     </li>
                     <li>
                       <i className="far fa-check me-2" />
-                      Awards Winning Internet Solutions Company
+                      Nonstop social media scrolls
                     </li>
                     <li>
                       <i className="far fa-check me-2" />
-                      Dedicated Tech Services
+                      24/7 support
                     </li>
                   </ul>
                   <div className="about-author">
@@ -172,7 +170,6 @@ const page = () => {
                         </span>
                       </Link>
                     </div>
-                    
                   </div>
                 </div>
               </div>
@@ -204,10 +201,7 @@ const page = () => {
                     <h4>
                       <Link href="about">Corporate Internet</Link>
                     </h4>
-                    <p>
-                      Average time to resolve a cyber attack Average time to
-                      resolve
-                    </p>
+                    <p>Latency free and lightning-fast upload & download.</p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
                       <i className="fas fa-chevron-right" />
@@ -227,10 +221,7 @@ const page = () => {
                     <h4>
                       <Link href="about">Home Internet</Link>
                     </h4>
-                    <p>
-                      Average time to resolve a cyber attack Average time to
-                      resolve
-                    </p>
+                    <p>Nonstop fast, uninterrupted access to online 24/7.</p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
                       <i className="fas fa-chevron-right" />
@@ -248,11 +239,11 @@ const page = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link href="about">Hosting &amp; Development</Link>
+                      <Link href="about">Freelancers</Link>
                     </h4>
                     <p>
-                      Average time to resolve a cyber attack Average time to
-                      resolve
+                      Stable, high-speed video calls and cloud access with no
+                      interruptions.
                     </p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
@@ -271,12 +262,9 @@ const page = () => {
                   </div>
                   <div className="content">
                     <h4>
-                      <Link href="about">Satelite Chanel</Link>
+                      <Link href="about">Gamers</Link>
                     </h4>
-                    <p>
-                      Average time to resolve a cyber attack Average time to
-                      resolve
-                    </p>
+                    <p>Low-latency and lightning-fast response times.</p>
                     <Link href="about" className="link-btn">
                       <span>Discover More</span>
                       <i className="fas fa-chevron-right" />
@@ -762,19 +750,23 @@ const page = () => {
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Real-time internet with low ping is the backbone of a seamless digital experience, ensuring smooth interactions across gaming, streaming, video conferencing, and other online activities. A low ping—or low latency—means minimal delay between a user's action and the system's response, creating an instantaneous and uninterrupted experience.
-
+                    Real-time internet with low ping is the backbone of a
+                    seamless digital experience, ensuring smooth interactions
+                    across gaming, streaming, video conferencing, and other
+                    online activities. A low ping—or low latency—means minimal
+                    delay between a user's action and the system's response,
+                    creating an instantaneous and uninterrupted experience.
                   </p>
                   <h4
                     className="cta-sub-title wow fadeInUp"
                     data-wow-delay=".3s"
                   >
-                    <span>Subscribe Netfix TV Box &amp; Get</span> <br />
-                    FREE Wi-Fi For 1 Month
+                    <span>Pick the broadband plan </span> <br />
+                    that matches your needs
                   </h4>
                   <div className="subscribe-plan">
                     <h3 className="price wow fadeInUp" data-wow-delay=".5s">
-                      <span>starts only</span>  ৳700<sub>/Mon</sub>
+                      <span>starts only</span> ৳500<sub>/Mon</sub>
                     </h3>
                     <Link
                       href="pricing"
@@ -1007,8 +999,8 @@ const page = () => {
         <div className="container">
           <div className="cta-parallax-wrapper text-center">
             <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-              Need Fast &amp; Secure Broadband! Use <br /> Cherry Enterprise &amp; The
-              Real Network
+              How to Get Connections? Call us or fill out the connection request
+              form.
             </h2>
             <div className="button-items">
               <Link
@@ -1017,7 +1009,7 @@ const page = () => {
                 data-wow-delay=".5s"
               >
                 <span>
-                  View our Plans <i className="fas fa-chevron-right" />
+                  Replace red Button <i className="fas fa-chevron-right" />
                 </span>
               </Link>
               <span className="or">or</span>
@@ -1027,7 +1019,7 @@ const page = () => {
                 data-wow-delay=".7s"
               >
                 <span>
-                  +1718-904-4450 <i className="fas fa-chevron-right" />
+                  +09613338833 <i className="fas fa-chevron-right" />
                 </span>
               </a>
             </div>
@@ -1040,7 +1032,7 @@ const page = () => {
           <div className="counter-wrapper">
             <div className="counter-items wow fadeInUp" data-wow-delay=".2s">
               <h2>
-                <span className="count">20</span>+
+                <span className="count">10</span>+
               </h2>
               <p>
                 YEARS OF <br />
@@ -1049,23 +1041,22 @@ const page = () => {
             </div>
             <div className="counter-items wow fadeInUp" data-wow-delay=".4s">
               <h2>
-                <span className="count">220</span>k
+                <span className="count">1000+</span>k
               </h2>
               <p>
-                CLIENTS IN <br />
-                THE WORLD
+                CLIENTS <br />
               </p>
             </div>
             <div className="counter-items wow fadeInUp" data-wow-delay=".6s">
               <h2>
-                <span className="count">2,5</span>k
+                <span className="count">90%</span>
               </h2>
               <p>
-                KILOMETERS <br />
-                OF FIBERS
+                Clients <br />
+                Rentention
               </p>
             </div>
-            <div className="counter-items wow fadeInUp" data-wow-delay=".8s">
+            {/* <div className="counter-items wow fadeInUp" data-wow-delay=".8s">
               <h2>
                 <span className="count">991</span>
               </h2>
@@ -1073,7 +1064,7 @@ const page = () => {
                 SATELLITE <br />
                 CHANNELS
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -1083,8 +1074,9 @@ const page = () => {
           <div className="section-title text-center">
             <span className="wow fadeInUp">trusted clients feedback</span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Why People Say About Our <br />
-              Business Services
+              Why Is Everyone Choosing
+              <br />
+              Cherry Internet?
             </h2>
           </div>
           <TestimonialSlider />

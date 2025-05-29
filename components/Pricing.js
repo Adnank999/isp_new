@@ -11,6 +11,7 @@ const Pricing = () => {
             Choose Your Internet <br />
             Pack By Speed
           </h2>
+          <p>We offer straightforward plans with no hidden charges.</p>
         </div>
         <div className="row">
           <div

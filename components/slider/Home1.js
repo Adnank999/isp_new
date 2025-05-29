@@ -65,14 +65,14 @@ const Home1 = () => {
                     data-delay="1.5s"
                     data-duration=".3s"
                   >
-                    Get Fast <br /> Internet Solution
+                    Unbeatable High Speed <br /> Internet
                   </h1>
                   <h2
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                    Starts ৳700 <span>/ Month</span>
+                    Starts ৳500 <span>/ Month</span>
                   </h2>
                   <p
                     data-animation="fadeInUp"
@@ -142,14 +142,15 @@ const Home1 = () => {
                     data-delay="1.5s"
                     data-duration=".3s"
                   >
-                    Slow Internet? <br /> Try our best Internet Solution
+                    Seamless Online
+                    <br /> Experiences
                   </h1>
                   <h2
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                      Starts ৳700 <span>/ Month</span>
+                    Starts ৳500 <span>/ Month</span>
                   </h2>
                   <p
                     data-animation="fadeInUp"
@@ -219,14 +220,14 @@ const Home1 = () => {
                     data-delay="1.5s"
                     data-duration=".3s"
                   >
-                    Truested <br /> Internet Solution
+                    Frustration with Slow Speeds? <br /> We Ensure Buffer-Free Streaming.
                   </h1>
                   <h2
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                      Starts ৳700 <span>/ Month</span>
+                    Starts ৳500 <span>/ Month</span>
                   </h2>
                   <p
                     data-animation="fadeInUp"
