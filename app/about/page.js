@@ -63,12 +63,12 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Broadband</Link>
+                   Broadband
                   </h3>
                   <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -82,12 +82,12 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">WIFI Internet</Link>
+                    WIFI Internet
                   </h3>
                   <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -101,12 +101,12 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Low Latency</Link>
+                    Low Latency
                   </h3>
                   <p>We offer low latency internet services 24/7</p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -120,12 +120,12 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Upstream</Link>
+                    Upstream
                   </h3>
                   <p>Our upstream services quality is better than others</p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

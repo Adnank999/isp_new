@@ -158,7 +158,7 @@ const page = () => {
                       24/7 support
                     </li>
                   </ul>
-                  <div className="about-author">
+                  {/* <div className="about-author">
                     <div
                       className="about-button wow fadeInUp"
                       data-wow-delay=".8s"
@@ -170,7 +170,7 @@ const page = () => {
                         </span>
                       </Link>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -178,7 +178,7 @@ const page = () => {
         </div>
       </section>
       {/*<< Network Solutions Section Start >>*/}
-      <section className="network-solution-section section-padding fix pt-0">
+      <section className="network-solution-section section-padding fix pt-0" style={{paddingTop: "100px !important"}}>
         <div className="container custom-container-2">
           <div className="network-solution-wrapper">
             <div className="section-title text-center">
@@ -1009,7 +1009,7 @@ const page = () => {
                 data-wow-delay=".5s"
               >
                 <span>
-                  Replace red Button <i className="fas fa-chevron-right" />
+                  Get Connection Now  <i className="fas fa-chevron-right" />
                 </span>
               </Link>
               <span className="or">or</span>

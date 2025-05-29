@@ -60,12 +60,12 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Broadband</Link>
+                    Broadband
                   </h3>
                   <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -79,12 +79,12 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">WIFI Internet</Link>
+                    WIFI Internet
                   </h3>
                   <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -98,12 +98,12 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Low Latency</Link>
+                   Low Latency
                   </h3>
                   <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -117,12 +117,12 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Upstreaming</Link>
+                    Upstreaming
                   </h3>
                   <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -136,14 +136,14 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Cutting Edge Solutions</Link>
+                  Cutting Edge Solutions
                   </h3>
                   <p>
                     Our service offerings enhance experience throughout highly
                   </p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -157,14 +157,14 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Dedicated Internet</Link>
+                   Dedicated Internet
                   </h3>
                   <p>
                     Our service offerings enhance experience throughout highly
                   </p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -178,14 +178,14 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">Home Internet</Link>
+                    Home Internet
                   </h3>
                   <p>
                     Our service offerings enhance experience throughout highly
                   </p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -199,12 +199,12 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>
-                    <Link href="service-details">24/7 Support</Link>
+                    24/7 Support
                   </h3>
                   <p>We approached WiaTech with complex project deliver</p>
-                  <Link href="service-details" className="arrow-icon">
+                  {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
