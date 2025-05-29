@@ -1041,7 +1041,7 @@ const page = () => {
             </div>
             <div className="counter-items wow fadeInUp" data-wow-delay=".4s">
               <h2>
-                <span className="count">1000+</span>k
+                <span className="count">1000+</span>
               </h2>
               <p>
                 CLIENTS <br />
