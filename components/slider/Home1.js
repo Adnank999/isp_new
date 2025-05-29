@@ -81,7 +81,7 @@ const Home1 = () => {
                   >
                     Ultra Fast internet
                   </p>
-                  <div className="hero-button">
+                  {/* <div className="hero-button">
                     <Link
                       href="/"
                       className="theme-btn"
@@ -109,7 +109,7 @@ const Home1 = () => {
                       </a>
                       <span className="ms-4 d-line">Watch Video</span>
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-3">
@@ -158,7 +158,7 @@ const Home1 = () => {
                   >
                     Ultra Fast internet
                   </p>
-                  <div className="hero-button">
+                  {/* <div className="hero-button">
                     <Link
                       href="/"
                       className="theme-btn"
@@ -186,7 +186,7 @@ const Home1 = () => {
                       </a>
                       <span className="ms-4 d-line">Watch Video</span>
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-3">
@@ -235,7 +235,7 @@ const Home1 = () => {
                   >
                     Ultra Fast internet
                   </p>
-                  <div className="hero-button">
+                  {/* <div className="hero-button">
                     <Link
                       href="/"
                       className="theme-btn"
@@ -263,7 +263,7 @@ const Home1 = () => {
                       </a>
                       <span className="ms-4 d-line">Watch Video</span>
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-3">

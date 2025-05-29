@@ -27,7 +27,7 @@ const page = () => {
               <div className="single-feature-items">
                 <div className="content">
                   <span>Features</span>
-                  <h3>TV &amp; Streaming</h3>
+                  <h3>Streaming</h3>
                 </div>
                 <div className="icon">
                   <i className="flaticon-smart-tv-1" />
@@ -41,7 +41,7 @@ const page = () => {
               <div className="single-feature-items active">
                 <div className="content">
                   <span>Features</span>
-                  <h3>Fast Internet</h3>
+                  <h3>Ultra Fast Internet</h3>
                 </div>
                 <div className="icon">
                   <i className="flaticon-connection" />
@@ -107,9 +107,9 @@ const page = () => {
               <div className="col-lg-6 mt-5 mt-lg-0">
                 <div className="about-content">
                   <div className="section-title">
-                    <span className="wow fadeInUp">About Netband</span>
+                    <span className="wow fadeInUp">About Cherry Enterprise</span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Get TV streaming with your internet service
+                      Get streaming with your internet service
                     </h2>
                   </div>
                   <p
@@ -172,16 +172,7 @@ const page = () => {
                         </span>
                       </Link>
                     </div>
-                    <div
-                      className="author-image wow fadeInUp"
-                      data-wow-delay=".9s"
-                    >
-                      <img src="assets/img/about/author.png" alt="author-img" />
-                      <div className="content">
-                        <h5 className="mb-2">Modina Theme</h5>
-                        <p>Ceo &amp; Founder</p>
-                      </div>
-                    </div>
+                    
                   </div>
                 </div>
               </div>
@@ -298,7 +289,7 @@ const page = () => {
         </div>
       </section>
       {/*<< Movie Section Start >>*/}
-      <section className="movie-section movie-bg">
+      {/* <section className="movie-section movie-bg">
         <div className="container custom-container-2">
           <div className="section-title text-center">
             <span className="text-white wow fadeInUp">What’s new</span>
@@ -309,9 +300,9 @@ const page = () => {
           </div>
           <MovieSlider />
         </div>
-      </section>
+      </section> */}
       {/*<< Marque Studies Start >>*/}
-      <div className="marque-section section-padding pt-0 mt-5">
+      {/* <div className="marque-section section-padding pt-0 mt-5">
         <div className="marquee-wrapper text-slider">
           <div className="marquee-inner to-left">
             <ul className="marqee-list d-flex">
@@ -350,7 +341,7 @@ const page = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
       {/*<< Service Section Start >>*/}
       {/* <Service1 /> */}
       {/*<< Brand Section Start >>*/}
@@ -398,7 +389,7 @@ const page = () => {
         </div>
       </section> */}
       {/*<< Feature Icon Box Section Start >>*/}
-      <section className="feature-icon-box-area">
+      {/* <section className="feature-icon-box-area">
         <div className="container">
           <div className="feature-icon-box-wrapper">
             <div className="row g-4">
@@ -449,7 +440,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*<< Team Section Start >>*/}
       {/* <section className="team-section section-padding">
         <div className="container">
@@ -1118,7 +1109,7 @@ const page = () => {
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
                       Have Any Questions About <br />
-                      Our NetBand Company
+                      Our Cherry Enterprise?
                     </h2>
                   </div>
                   <div className="faq-accordion mt-4 mt-md-0">

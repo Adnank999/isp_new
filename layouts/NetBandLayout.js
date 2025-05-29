@@ -19,7 +19,7 @@ const NetBandLayout = ({
     netBandUtility.stickyNav();
     document.querySelector("body").className = bodyBg;
   }, []);
-console.log("About Page Rendered",header);
+
   return (
     <Fragment>
       <ImageView />

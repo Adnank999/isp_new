@@ -8,7 +8,6 @@ import { TestimonialSlider4 } from "@/components/slider/TestimonialSlider";
 import NetBandLayout from "@/layouts/NetBandLayout";
 import Link from "next/link";
 const page = () => {
-  
   return (
     <NetBandLayout header={1} footer={2}>
       <Breadcrumb pageTitle={"about us"} />
@@ -17,41 +16,18 @@ const page = () => {
         <div className="container">
           <div className="about-wrapper">
             <div className="row">
-              <div className="col-lg-6">
+              <div className="col-lg-8">
                 <div className="about-image-items">
-                  <div className="circle-shape">
-                    <img
-                      src="assets/img/about/circle.png"
-                      alt="img"
-                      className="text-circle"
-                    />
-                    <div className="award-img">
-                      <img src="assets/img/about/award.png" alt="img" />
-                    </div>
-                  </div>
-                  <div className="border-shape">
-                    <img
-                      src="assets/img/about/border-shape.png"
-                      alt="shape-img"
-                    />
-                  </div>
                   <div
                     className="about-image bg-cover wow fadeInLeft"
                     data-wow-delay=".3s"
                     style={{
-                      backgroundImage: 'url("assets/img/about/about.jpg")',
+                      backgroundImage: 'url("assets/img/about/about.png")',
                     }}
-                  >
-                    <div
-                      className="about-image-2 wow fadeInUp"
-                      data-wow-delay=".5s"
-                    >
-                      <img src="assets/img/about/about-2.jpg" alt="about-img" />
-                    </div>
-                  </div>
+                  ></div>
                 </div>
               </div>
-              <div className="col-lg-6 mt-5 mt-lg-0">
+              <div className="col-lg-4 mt-5 mt-lg-0">
                 <div className="about-content">
                   <div className="section-title">
                     <span className="wow fadeInUp">
@@ -121,7 +97,7 @@ const page = () => {
                         </span>
                       </Link>
                     </div>
-                    <div
+                    {/* <div
                       className="author-image wow fadeInUp"
                       data-wow-delay=".9s"
                     >
@@ -133,7 +109,7 @@ const page = () => {
                         />
                         <p>Ceo &amp; Founder</p>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -304,17 +280,17 @@ const page = () => {
         </div>
       </section>
       {/*<< Testimonial Section Start >>*/}
-      <TestimonialSlider4 />
+      {/* <TestimonialSlider4 /> */}
       {/*<< Brand Section Start >>*/}
-      <div className="brand-section-3 fix section-padding pt-0">
+      {/* <div className="brand-section-3 fix section-padding pt-0">
         <div className="container">
           <div className="brand-wrapper">
             <BrandSlider />
           </div>
         </div>
-      </div>
+      </div> */}
       {/*<< News Section Start >>*/}
-      <section className="news-section-2 section-padding fix">
+      {/* <section className="news-section-2 section-padding fix">
         <div className="container">
           <div className="title-section-area">
             <div className="section-title">
@@ -336,7 +312,7 @@ const page = () => {
           </div>
           <NewsSlider />
         </div>
-      </section>
+      </section> */}
     </NetBandLayout>
   );
 };
