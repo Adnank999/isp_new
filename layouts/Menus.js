@@ -220,18 +220,18 @@ const Menus = ({ single, menus }) => {
             <Link href="about">About Us</Link>
           </li>
           <li>
-            <Link href="news">
+            <Link href="offers">
               Offers
-              <i className="fas fa-angle-down" />
+              {/* <i className="fas fa-angle-down" /> */}
             </Link>
-            <ul className="submenu">
+            {/* <ul className="submenu">
               <li>
                 <Link href="service">Services</Link>
               </li>
               <li>
                 <Link href="service-details">Service Details</Link>
               </li>
-            </ul>
+            </ul> */}
           </li>
           <li className="has-dropdown">
             <Link href="pricing">

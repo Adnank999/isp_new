@@ -17,7 +17,7 @@ const page = () => {
           <div className="about-wrapper">
             <div className="row">
               <div className="col-lg-8">
-                <div className="about-image-items">
+                <div className="about-image-items big-image">
                   <div
                     className="about-image bg-cover wow fadeInLeft"
                     data-wow-delay=".3s"
@@ -28,90 +28,15 @@ const page = () => {
                 </div>
               </div>
               <div className="col-lg-4 mt-5 mt-lg-0">
-                <div className="about-content">
-                  <div className="section-title">
-                    <span className="wow fadeInUp">
-                      5m+ Trusted Our Clients
-                    </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      We Prominent Truly trusted IT business solutions
-                    </h2>
+                <div className="mt-5">
+                    <h2 >Who We Are</h2>
+                    <p className="pt-2">
+                      We proudly stand as the nation's largest and #1 fiber broadband internet service provider, as recognized
+                      by APNIC. Our aim is to ensure high-speed, reliable internet for the whole nation, bridging connectivity
+                      gaps even in fiber-inaccessible regions. With our legacy of trust, we empower individuals, businesses, and
+                      communities to flourish in today's digital landscape.
+                    </p>
                   </div>
-                  <p
-                    className=" mt-4 mt-md-0 wow fadeInUp"
-                    data-wow-delay=".5s"
-                  >
-                    Transmds is the world’s driving worldwide coordinations
-                    supplier — we uphold industry and exchange the worldwide
-                    trade of merchandi
-                  </p>
-                  <div className="circle-progress-bar-wrapper">
-                    <div
-                      className="single-circle-bar wow fadeInUp"
-                      data-wow-delay=".3s"
-                    >
-                      <ProgressBar value={68} />
-                      <div className="content">
-                        <h6>
-                          Business <br />
-                          Strategy
-                        </h6>
-                      </div>
-                    </div>
-                    <div
-                      className="single-circle-bar wow fadeInUp"
-                      data-wow-delay=".5s"
-                    >
-                      <ProgressBar value={93} />
-                      <div className="content">
-                        <h6>
-                          Real Technology <br />
-                          Solutions
-                        </h6>
-                      </div>
-                    </div>
-                  </div>
-                  <ul className="about-list wow fadeInUp" data-wow-delay=".7s">
-                    <li>
-                      <i className="far fa-check me-2" />
-                      Professional Team Member
-                    </li>
-                    <li>
-                      <i className="far fa-check me-2" />
-                      Awards Winning IT Solutions Company
-                    </li>
-                    <li>
-                      <i className="far fa-check me-2" />
-                      Dedicated Tech Services
-                    </li>
-                  </ul>
-                  <div className="about-author">
-                    <div
-                      className="about-button wow fadeInUp"
-                      data-wow-delay=".8s"
-                    >
-                      <Link href="about" className="theme-btn">
-                        <span>
-                          Explore more about
-                          <i className="fas fa-chevron-right" />
-                        </span>
-                      </Link>
-                    </div>
-                    {/* <div
-                      className="author-image wow fadeInUp"
-                      data-wow-delay=".9s"
-                    >
-                      <img src="assets/img/about/author.png" alt="author-img" />
-                      <div className="content">
-                        <img
-                          src="assets/img/about/signature.png"
-                          alt="signature"
-                        />
-                        <p>Ceo &amp; Founder</p>
-                      </div>
-                    </div> */}
-                  </div>
-                </div>
               </div>
             </div>
           </div>

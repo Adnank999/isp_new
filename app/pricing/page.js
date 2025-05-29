@@ -7,7 +7,7 @@ const page = () => {
     <NetBandLayout header={1} footer={2}>
       <Breadcrumb pageTitle={"Our Pricing"} />
       {/*<< Feature Section Start >>*/}
-      <section className="feature-section fix section-padding">
+      {/* <section className="feature-section fix section-padding">
         <div className="shape-image">
           <img src="assets/img/shape.png" alt="shape-img" />
         </div>
@@ -57,9 +57,9 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*<< Pricing Section Start >>*/}
-      <section className="pricing-section fix section-padding">
+      {/* <section className="pricing-section fix section-padding">
         <div className="container custom-container-2">
           <div className="section-title text-center">
             <span className="wow fadeInUp">Tariffs</span>
@@ -240,9 +240,9 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*<< Feature Video Section Start >>*/}
-      <section
+      {/* <section
         className="feature-video-section fix section-padding bg-cover"
         style={{ backgroundImage: 'url("assets/img/video_bg.jpg")' }}
       >
@@ -290,25 +290,26 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*<< Pricing Section Start >>*/}
       <section className="pricing-section-2 fix section-padding">
         <div className="container">
           <div className="section-title text-center mb-0">
-            <span>OUR PRICING PLAN</span>
+            {/* <span>OUR PRICING PLAN</span> */}
             <h2>Our Pricing Plan</h2>
           </div>
-          <div className="row pt-5">
+          <div className="row pt-5 g-4">
             <div className="pricing-wrapper">
               <div className="row justify-content-between align-items-center">
                 <div className="col-xxl-6 col-xl-6 col-lg-12">
                   <div className="pricing-content-box d-flex align-items-center justify-content-between">
                     <div className="price-content">
-                      <p>Installation Charge: 1,500 Tk</p>
-                      <h3>Tv+Internet</h3>
-                      <span>
+                      <h3>Cherry Seed</h3>
+
+                      <p>Installation Charge: none</p>
+                      {/* <span>
                         <em>5%</em> VAT Included
-                      </span>
+                      </span> */}
                     </div>
                     <div className="price-icon">
                       <div className="icon">
@@ -325,15 +326,24 @@ const page = () => {
                     <ul className="price-list">
                       <li>
                         <i className="far fa-check" />
-                        Internet with a 50 Mbps
+                        Internet with a 15 Mbps
+                      </li>
+
+                      <li>
+                        <i className="far fa-check" />
+                        100 Mbps BDIX and Other Speed
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        4K Youtube and Facebook Stream.
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Optical Fiber Connection
                       </li>
                       <li>
                         <i className="far fa-check" />
                         Connect multiple users at once
-                      </li>
-                      <li>
-                        <i className="far fa-check" />
-                        WiFi router &amp; prevention
                       </li>
                       <li>
                         <i className="far fa-check" />
@@ -342,7 +352,7 @@ const page = () => {
                     </ul>
                     <div className="price-button">
                       <h3>
-                        30 <i>$</i>
+                        <i>৳</i>500 
                         <span>/mo</span>
                       </h3>
                       <Link href="contact" className="theme-btn">
@@ -358,11 +368,140 @@ const page = () => {
                 <div className="col-xxl-6 col-xl-6 col-lg-12">
                   <div className="pricing-content-box d-flex align-items-center justify-content-between">
                     <div className="price-content">
-                      <p>Installation Charge: 1,500 Tk</p>
-                      <h3>Tv+Mobile</h3>
-                      <span>
+                      <h3>Cherry Spark</h3>
+
+                      <p>Installation Charge: none</p>
+                      {/* <span>
                         <em>5%</em> VAT Included
-                      </span>
+                      </span> */}
+                    </div>
+                    <div className="price-icon">
+                      <div className="icon">
+                        <i className="flaticon-television" />
+                      </div>
+                      <div className="icon">
+                        <i className="flaticon-smartphone" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xxl-5 col-xl-6 col-lg-12">
+                  <div className="pricing-list-items d-flex align-items-center">
+                    <ul className="price-list">
+                      <li>
+                        <i className="far fa-check" />
+                        Internet with a 25 Mbps
+                      </li>
+
+                      <li>
+                        <i className="far fa-check" />
+                        100 Mbps BDIX and Other Speed
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        4K Youtube and Facebook Stream.
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Optical Fiber Connection
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Connect multiple users at once
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Unlimited devices users
+                      </li>
+                    </ul>
+                    <div className="price-button">
+                      <h3>
+                        <i>৳</i>700 
+                        <span>/mo</span>
+                      </h3>
+                      <Link href="contact" className="theme-btn">
+                        <span>Get Started</span>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pricing-wrapper active">
+              <div className="row justify-content-between align-items-center">
+                <div className="col-xxl-6 col-xl-6 col-lg-12">
+                  <div className="pricing-content-box d-flex align-items-center justify-content-between">
+                    <div className="price-content">
+                      <h3>Cherry Bloom</h3>
+
+                      <p>Installation Charge: none</p>
+                      {/* <span>
+                        <em>5%</em> VAT Included
+                      </span> */}
+                    </div>
+                    <div className="price-icon">
+                      <div className="icon">
+                        <i className="flaticon-television" />
+                      </div>
+                      <div className="icon">
+                        <i className="flaticon-smartphone" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xxl-5 col-xl-6 col-lg-12">
+                  <div className="pricing-list-items d-flex align-items-center">
+                    <ul className="price-list">
+                      <li>
+                        <i className="far fa-check" />
+                        Internet with a 40 Mbps
+                      </li>
+
+                      <li>
+                        <i className="far fa-check" />
+                        100 Mbps BDIX and Other Speed
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        4K Youtube and Facebook Stream.
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Optical Fiber Connection
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Connect multiple users at once
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Unlimited devices users
+                      </li>
+                    </ul>
+                    <div className="price-button">
+                      <h3>
+                        <i>৳</i>1000 
+                        <span>/mo</span>
+                      </h3>
+                      <Link href="contact" className="theme-btn">
+                        <span>Get Started</span>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pricing-wrapper active">
+              <div className="row justify-content-between align-items-center">
+                <div className="col-xxl-6 col-xl-6 col-lg-12">
+                  <div className="pricing-content-box d-flex align-items-center justify-content-between">
+                    <div className="price-content">
+                      <h3>Cherry Pop</h3>
+
+                      <p>Installation Charge: none</p>
+                      {/* <span>
+                        <em>5%</em> VAT Included
+                      </span> */}
                     </div>
                     <div className="price-icon">
                       <div className="icon">
@@ -381,13 +520,22 @@ const page = () => {
                         <i className="far fa-check" />
                         Internet with a 50 Mbps
                       </li>
+
                       <li>
                         <i className="far fa-check" />
-                        Connect multiple users at once
+                        100 Mbps BDIX and Other Speed
                       </li>
                       <li>
                         <i className="far fa-check" />
-                        WiFi router &amp; prevention
+                        4K Youtube and Facebook Stream.
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Optical Fiber Connection
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Connect multiple users at once
                       </li>
                       <li>
                         <i className="far fa-check" />
@@ -396,7 +544,7 @@ const page = () => {
                     </ul>
                     <div className="price-button">
                       <h3>
-                        40 <i>$</i>
+                        <i>৳</i>1200 
                         <span>/mo</span>
                       </h3>
                       <Link href="contact" className="theme-btn">
@@ -407,20 +555,21 @@ const page = () => {
                 </div>
               </div>
             </div>
-            <div className="pricing-wrapper">
+            <div className="pricing-wrapper active">
               <div className="row justify-content-between align-items-center">
                 <div className="col-xxl-6 col-xl-6 col-lg-12">
                   <div className="pricing-content-box d-flex align-items-center justify-content-between">
                     <div className="price-content">
-                      <p>Installation Charge: 1,500 Tk</p>
-                      <h3>Satelite+ Phone</h3>
-                      <span>
+                      <h3>Cherry Rush</h3>
+
+                      <p>Installation Charge: none</p>
+                      {/* <span>
                         <em>5%</em> VAT Included
-                      </span>
+                      </span> */}
                     </div>
                     <div className="price-icon">
                       <div className="icon">
-                        <i className="flaticon-satellite-tv" />
+                        <i className="flaticon-television" />
                       </div>
                       <div className="icon">
                         <i className="flaticon-smartphone" />
@@ -433,15 +582,24 @@ const page = () => {
                     <ul className="price-list">
                       <li>
                         <i className="far fa-check" />
-                        Internet with a 50 Mbps
+                        Internet with a 60 Mbps
+                      </li>
+
+                      <li>
+                        <i className="far fa-check" />
+                        100 Mbps BDIX and Other Speed
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        4K Youtube and Facebook Stream.
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Optical Fiber Connection
                       </li>
                       <li>
                         <i className="far fa-check" />
                         Connect multiple users at once
-                      </li>
-                      <li>
-                        <i className="far fa-check" />
-                        WiFi router &amp; prevention
                       </li>
                       <li>
                         <i className="far fa-check" />
@@ -450,7 +608,199 @@ const page = () => {
                     </ul>
                     <div className="price-button">
                       <h3>
-                        60 <i>$</i>
+                        <i>৳</i>1500 
+                        <span>/mo</span>
+                      </h3>
+                      <Link href="contact" className="theme-btn">
+                        <span>Get Started</span>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pricing-wrapper active">
+              <div className="row justify-content-between align-items-center">
+                <div className="col-xxl-6 col-xl-6 col-lg-12">
+                  <div className="pricing-content-box d-flex align-items-center justify-content-between">
+                    <div className="price-content">
+                      <h3>Cherry Blast</h3>
+
+                      <p>Installation Charge: none</p>
+                      {/* <span>
+                        <em>5%</em> VAT Included
+                      </span> */}
+                    </div>
+                    <div className="price-icon">
+                      <div className="icon">
+                        <i className="flaticon-television" />
+                      </div>
+                      <div className="icon">
+                        <i className="flaticon-smartphone" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xxl-5 col-xl-6 col-lg-12">
+                  <div className="pricing-list-items d-flex align-items-center">
+                    <ul className="price-list">
+                      <li>
+                        <i className="far fa-check" />
+                        Internet with a 80 Mbps
+                      </li>
+
+                      <li>
+                        <i className="far fa-check" />
+                        100 Mbps BDIX and Other Speed
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        4K Youtube and Facebook Stream.
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Optical Fiber Connection
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Connect multiple users at once
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Unlimited devices users
+                      </li>
+                    </ul>
+                    <div className="price-button">
+                      <h3>
+                        <i>৳</i>2000
+                        <span>/mo</span>
+                      </h3>
+                      <Link href="contact" className="theme-btn">
+                        <span>Get Started</span>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pricing-wrapper active">
+              <div className="row justify-content-between align-items-center">
+                <div className="col-xxl-6 col-xl-6 col-lg-12">
+                  <div className="pricing-content-box d-flex align-items-center justify-content-between">
+                    <div className="price-content">
+                      <h3>Cherry Blaze</h3>
+
+                      <p>Installation Charge: none</p>
+                      {/* <span>
+                        <em>5%</em> VAT Included
+                      </span> */}
+                    </div>
+                    <div className="price-icon">
+                      <div className="icon">
+                        <i className="flaticon-television" />
+                      </div>
+                      <div className="icon">
+                        <i className="flaticon-smartphone" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xxl-5 col-xl-6 col-lg-12">
+                  <div className="pricing-list-items d-flex align-items-center">
+                    <ul className="price-list">
+                      <li>
+                        <i className="far fa-check" />
+                        Internet with a 100 Mbps
+                      </li>
+
+                      <li>
+                        <i className="far fa-check" />
+                        100 Mbps BDIX and Other Speed
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        4K Youtube and Facebook Stream.
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Optical Fiber Connection
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Connect multiple users at once
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Unlimited devices users
+                      </li>
+                    </ul>
+                    <div className="price-button">
+                      <h3>
+                        <i>৳</i>3000 
+                        <span>/mo</span>
+                      </h3>
+                      <Link href="contact" className="theme-btn">
+                        <span>Get Started</span>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pricing-wrapper active">
+              <div className="row justify-content-between align-items-center">
+                <div className="col-xxl-6 col-xl-6 col-lg-12">
+                  <div className="pricing-content-box d-flex align-items-center justify-content-between">
+                    <div className="price-content">
+                      <h3>Cherry Max</h3>
+
+                      <p>Installation Charge: none</p>
+                      {/* <span>
+                        <em>5%</em> VAT Included
+                      </span> */}
+                    </div>
+                    <div className="price-icon">
+                      <div className="icon">
+                        <i className="flaticon-television" />
+                      </div>
+                      <div className="icon">
+                        <i className="flaticon-smartphone" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-xxl-5 col-xl-6 col-lg-12">
+                  <div className="pricing-list-items d-flex align-items-center">
+                    <ul className="price-list">
+                      <li>
+                        <i className="far fa-check" />
+                        Internet with a 120 Mbps
+                      </li>
+
+                      <li>
+                        <i className="far fa-check" />
+                        100 Mbps BDIX and Other Speed
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        4K Youtube and Facebook Stream.
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Optical Fiber Connection
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Connect multiple users at once
+                      </li>
+                      <li>
+                        <i className="far fa-check" />
+                        Unlimited devices users
+                      </li>
+                    </ul>
+                    <div className="price-button">
+                      <h3>
+                        <i>৳</i>4000
                         <span>/mo</span>
                       </h3>
                       <Link href="contact" className="theme-btn">

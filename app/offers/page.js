@@ -293,7 +293,7 @@ const page = () => {
         </div>
       </section>
       {/*<< Faq Section Start >>*/}
-      <section className="faq-section section-padding section-bg-2">
+      {/* <section className="faq-section section-padding section-bg-2">
         <div className="container">
           <div className="about-wrapper">
             <div className="row">
@@ -358,15 +358,15 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/*<< Testimonial Section Start >>*/}
-      <section className="testimonial-section-2 fix section-padding">
+      {/* <section className="testimonial-section-2 fix section-padding">
         <div className="container-fluid">
           <TestimonialSlider3 extraClass="pt-0 pb-0 style-2" />
         </div>
-      </section>
+      </section> */}
       {/*<< News Section Start >>*/}
-      <section className="news-section-2 fix">
+      {/* <section className="news-section-2 fix">
         <div className="container">
           <div className="title-section-area">
             <div className="section-title">
@@ -388,7 +388,7 @@ const page = () => {
           </div>
           <NewsSlider />
         </div>
-      </section>
+      </section> */}
       {/*<< Contact Section Start >>*/}
       <ContactSection />
     </NetBandLayout>

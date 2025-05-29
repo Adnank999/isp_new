@@ -4746,6 +4746,12 @@ input.main-search-input::placeholder {
   position: relative;
   z-index: 1;
 }
+
+.about-wrapper .about-image-items.big-image .about-image {
+  width: 800px; /* Bigger size */
+  height: 530px;
+}
+
 @media (max-width: 575px) {
   .about-wrapper .about-image-items .about-image {
     max-width: 430px;
