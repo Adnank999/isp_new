@@ -10,175 +10,14 @@ import NetBandLayout from "@/layouts/NetBandLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <NetBandLayout header={1} footer={2}>
+    <NetBandLayout header={2} footer={2}>
       {/*<< Hero Section Start >>*/}
       <Home1 />
-      {/*<< Feature Section Start >>*/}
-      <section className="feature-section fix section-padding">
-        <div className="shape-image">
-          <img src="assets/img/shape.png" alt="shape-img" />
-        </div>
-        <div className="container">
-          <div className="row g-4">
-            <div
-              className="col-xxl-4 col-xl-6 wow fadeInUp"
-              data-wow-delay=".3s"
-            >
-              <div className="single-feature-items">
-                <div className="content">
-                  <span>Features</span>
-                  <h3>Unlimited High-Speed Plans</h3>
-                </div>
-                <div className="icon">
-                  <i className="flaticon-smart-tv-1" />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xxl-4 col-xl-6 wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              <div className="single-feature-items active">
-                <div className="content">
-                  <span>Features</span>
-                  <h3>Seamless Streaming & Browsing</h3>
-                </div>
-                <div className="icon">
-                  <i className="flaticon-connection" />
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xxl-4 col-xl-6 wow fadeInUp"
-              data-wow-delay=".7s"
-            >
-              <div className="single-feature-items">
-                <div className="content">
-                  <span>Features</span>
-                  <h3>Always Reliable</h3>
-                </div>
-                <div className="icon">
-                  <i className="flaticon-smart-tv-3" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*<< About Section Start >>*/}
-      <section className="about-section fix section-padding pt-0">
-        <div className="container">
-          <div className="about-wrapper">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="about-image-items">
-                  <div className="circle-shape">
-                    <img
-                      src="assets/img/about/circle.png"
-                      alt="img"
-                      className="text-circle"
-                    />
-                    <div className="award-img">
-                      <img src="assets/img/about/award.png" alt="img" />
-                    </div>
-                  </div>
-                  <div className="border-shape">
-                    <img
-                      src="assets/img/about/border-shape.png"
-                      alt="shape-img"
-                    />
-                  </div>
-                  <div
-                    className="about-image bg-cover wow fadeInLeft"
-                    data-wow-delay=".3s"
-                    style={{
-                      backgroundImage: 'url("assets/img/about/about.jpg")',
-                    }}
-                  >
-                    <div
-                      className="about-image-2 wow fadeInUp"
-                      data-wow-delay=".5s"
-                    >
-                      <img src="assets/img/about/about-2.jpg" alt="about-img" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6 mt-5 mt-lg-0">
-                <div className="about-content">
-                  <div className="section-title">
-                    <span className="wow fadeInUp">
-                      About Cherry Enterprise
-                    </span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Why Everybody is Using CherryInternet?
-                    </h2>
-                  </div>
-                  <p
-                    className=" mt-4 mt-md-0 wow fadeInUp"
-                    data-wow-delay=".5s"
-                  >
-                    To enjoy non-stop connectivity without worrying about data
-                    caps. Our network is built to deliver consistent performance
-                    no matter how many devices you’re using.
-                  </p>
-                  <div className="circle-progress-bar-wrapper">
-                    <div
-                      className="single-circle-bar wow fadeInUp"
-                      data-wow-delay=".3s"
-                    >
-                      <ProgressBar value={90} />
-                      <div className="content">
-                        <h6>
-                          Client Retention <br />
-                        </h6>
-                      </div>
-                    </div>
-                    <div
-                      className="single-circle-bar wow fadeInUp"
-                      data-wow-delay=".5s"
-                    >
-                      <ProgressBar value={100} />
-                      <div className="content">
-                        <h6>Modern Technology</h6>
-                      </div>
-                    </div>
-                  </div>
-                  <ul className="about-list wow fadeInUp" data-wow-delay=".7s">
-                    <li>
-                      <i className="far fa-check me-2" />
-                      Bufferless video call
-                    </li>
-                    <li>
-                      <i className="far fa-check me-2" />
-                      Nonstop social media scrolls
-                    </li>
-                    <li>
-                      <i className="far fa-check me-2" />
-                      24/7 support
-                    </li>
-                  </ul>
-                  {/* <div className="about-author">
-                    <div
-                      className="about-button wow fadeInUp"
-                      data-wow-delay=".8s"
-                    >
-                      <Link href="about" className="theme-btn">
-                        <span>
-                          Explore more about
-                          <i className="fas fa-chevron-right" />
-                        </span>
-                      </Link>
-                    </div>
-                  </div> */}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       {/*<< Network Solutions Section Start >>*/}
-      <section className="network-solution-section section-padding fix pt-0" style={{paddingTop: "100px !important"}}>
+      <section
+        className="network-solution-section section-padding fix pt-0"
+        style={{ paddingTop: "100px !important" }}
+      >
         <div className="container custom-container-2">
           <div className="network-solution-wrapper">
             <div className="section-title text-center">
@@ -276,6 +115,119 @@ const page = () => {
           </div>
         </div>
       </section>
+      {/*<< About Section Start >>*/}
+      {/* <section className="about-section fix section-padding pt-0">
+        <div className="container">
+          <div className="about-wrapper">
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="about-image-items">
+                  <div className="circle-shape">
+                    <img
+                      src="assets/img/about/circle.png"
+                      alt="img"
+                      className="text-circle"
+                    />
+                    <div className="award-img">
+                      <img src="assets/img/about/award.png" alt="img" />
+                    </div>
+                  </div>
+                  <div className="border-shape">
+                    <img
+                      src="assets/img/about/border-shape.png"
+                      alt="shape-img"
+                    />
+                  </div>
+                  <div
+                    className="about-image bg-cover wow fadeInLeft"
+                    data-wow-delay=".3s"
+                    style={{
+                      backgroundImage: 'url("assets/img/about/about.jpg")',
+                    }}
+                  >
+                    <div
+                      className="about-image-2 wow fadeInUp"
+                      data-wow-delay=".5s"
+                    >
+                      <img src="assets/img/about/about-2.jpg" alt="about-img" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 mt-5 mt-lg-0">
+                <div className="about-content">
+                  <div className="section-title">
+                    <span className="wow fadeInUp">
+                      About Cherry Enterprise
+                    </span>
+                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                      Why Everybody is Using CherryInternet?
+                    </h2>
+                  </div>
+                  <p
+                    className=" mt-4 mt-md-0 wow fadeInUp"
+                    data-wow-delay=".5s"
+                  >
+                    To enjoy non-stop connectivity without worrying about data
+                    caps. Our network is built to deliver consistent performance
+                    no matter how many devices you’re using.
+                  </p>
+                  <div className="circle-progress-bar-wrapper">
+                    <div
+                      className="single-circle-bar wow fadeInUp"
+                      data-wow-delay=".3s"
+                    >
+                      <ProgressBar value={90} />
+                      <div className="content">
+                        <h6>
+                          Client Retention <br />
+                        </h6>
+                      </div>
+                    </div>
+                    <div
+                      className="single-circle-bar wow fadeInUp"
+                      data-wow-delay=".5s"
+                    >
+                      <ProgressBar value={100} />
+                      <div className="content">
+                        <h6>Modern Technology</h6>
+                      </div>
+                    </div>
+                  </div>
+                  <ul className="about-list wow fadeInUp" data-wow-delay=".7s">
+                    <li>
+                      <i className="far fa-check me-2" />
+                      Bufferless video call
+                    </li>
+                    <li>
+                      <i className="far fa-check me-2" />
+                      Nonstop social media scrolls
+                    </li>
+                    <li>
+                      <i className="far fa-check me-2" />
+                      24/7 support
+                    </li>
+                  </ul>
+                  <div className="about-author">
+                    <div
+                      className="about-button wow fadeInUp"
+                      data-wow-delay=".8s"
+                    >
+                      <Link href="about" className="theme-btn">
+                        <span>
+                          Explore more about
+                          <i className="fas fa-chevron-right" />
+                        </span>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       */}
       {/*<< Movie Section Start >>*/}
       {/* <section className="movie-section movie-bg">
         <div className="container custom-container-2">
@@ -332,17 +284,7 @@ const page = () => {
       </div> */}
       {/*<< Service Section Start >>*/}
       {/* <Service1 /> */}
-      {/*<< Brand Section Start >>*/}
-      <section className="brand-section fix section-padding pt-0">
-        <div className="container">
-          <div className="brand-wrapper">
-            <h6 className="text-center wow fadeInUp" data-wow-delay=".3s">
-              1K+ BRANDS TRUST US
-            </h6>
-            <BrandSlider />
-          </div>
-        </div>
-      </section>
+
       {/*<< Cta Banner Section Start >>*/}
       {/* <section
         className="cta-banner-section bg-cover section-padding"
@@ -429,6 +371,70 @@ const page = () => {
           </div>
         </div>
       </section> */}
+      {/*<< Cta Subscribe Section Start >>*/}
+      <section className="trusted-client-section fix section-padding">
+        <div className="container custom-container-2">
+          <div className="cta-subscribe-wrapper">
+            <div className="row justify-content-between">
+              <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
+                <div className="cta-subscribe-image">
+                  <img src="assets/img/feature/trusted.jpg" alt="img" />
+                </div>
+              </div>
+              <div className="col-lg-5 mt-5 mt-md-0">
+                <div className="cta-subscribe-content">
+                  <div className="section-title">
+                    <span className="wow fadeInUp">Immersive experience</span>
+                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                      Enjoy Bufferless Youtube <br /> TV Shows &amp; More
+                    </h2>
+                  </div>
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                    Real-time internet with low ping is the backbone of a
+                    seamless digital experience, ensuring smooth interactions
+                    across gaming, streaming, video conferencing, and other
+                    online activities. A low ping—or low latency—means minimal
+                    delay between a user's action and the system's response,
+                    creating an instantaneous and uninterrupted experience.
+                  </p>
+                  <h4
+                    className="cta-sub-title wow fadeInUp"
+                    data-wow-delay=".3s"
+                  >
+                    <span>Pick the broadband plan </span> <br />
+                    that matches your needs
+                  </h4>
+                  <div className="subscribe-plan">
+                    <h3 className="price wow fadeInUp" data-wow-delay=".5s">
+                      <span>starts only</span> ৳500<sub>/Mon</sub>
+                    </h3>
+                    <Link
+                      href="pricing"
+                      className="link-btn style-2 wow fadeInUp"
+                      data-wow-delay=".7s"
+                    >
+                      <span>View All Plans</span>{" "}
+                      <i className="fas fa-chevron-right" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/*<< Brand Section Start >>*/}
+      <section className="brand-section fix section-padding pt-0">
+        <div className="container">
+          <div className="brand-wrapper">
+            <h6 className="text-center wow fadeInUp" data-wow-delay=".3s">
+              1K+ BRANDS TRUST US
+            </h6>
+            <BrandSlider />
+          </div>
+        </div>
+      </section>
       {/*<< Team Section Start >>*/}
       {/* <section className="team-section section-padding">
         <div className="container">
@@ -731,58 +737,7 @@ const page = () => {
       </section> */}
       {/*<< Pricing Section Start >>*/}
       <Pricing />
-      {/*<< Cta Subscribe Section Start >>*/}
-      <section className="trusted-client-section fix section-padding">
-        <div className="container custom-container-2">
-          <div className="cta-subscribe-wrapper">
-            <div className="row justify-content-between">
-              <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
-                <div className="cta-subscribe-image">
-                  <img src="assets/img/feature/trusted.jpg" alt="img" />
-                </div>
-              </div>
-              <div className="col-lg-5 mt-5 mt-md-0">
-                <div className="cta-subscribe-content">
-                  <div className="section-title">
-                    <span className="wow fadeInUp">Immersive experience</span>
-                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Enjoy Bufferless Youtube <br /> TV Shows &amp; More
-                    </h2>
-                  </div>
-                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Real-time internet with low ping is the backbone of a
-                    seamless digital experience, ensuring smooth interactions
-                    across gaming, streaming, video conferencing, and other
-                    online activities. A low ping—or low latency—means minimal
-                    delay between a user's action and the system's response,
-                    creating an instantaneous and uninterrupted experience.
-                  </p>
-                  <h4
-                    className="cta-sub-title wow fadeInUp"
-                    data-wow-delay=".3s"
-                  >
-                    <span>Pick the broadband plan </span> <br />
-                    that matches your needs
-                  </h4>
-                  <div className="subscribe-plan">
-                    <h3 className="price wow fadeInUp" data-wow-delay=".5s">
-                      <span>starts only</span> ৳500<sub>/Mon</sub>
-                    </h3>
-                    <Link
-                      href="pricing"
-                      className="link-btn style-2 wow fadeInUp"
-                      data-wow-delay=".7s"
-                    >
-                      <span>View All Plans</span>{" "}
-                      <i className="fas fa-chevron-right" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
       {/*<< Product Section Start >>*/}
       {/* <section className="product-section fix section-padding pt-0">
         <div className="container">
@@ -1009,7 +964,7 @@ const page = () => {
                 data-wow-delay=".5s"
               >
                 <span>
-                  Get Connection Now  <i className="fas fa-chevron-right" />
+                  Get Connection Now <i className="fas fa-chevron-right" />
                 </span>
               </Link>
               <span className="or">or</span>
@@ -1069,7 +1024,7 @@ const page = () => {
         </div>
       </section>
       {/*<< Testimonial Section Start >>*/}
-      <section className="testimonial-section section-padding fix">
+      {/* <section className="testimonial-section section-padding fix">
         <div className="container">
           <div className="section-title text-center">
             <span className="wow fadeInUp">trusted clients feedback</span>
@@ -1081,7 +1036,7 @@ const page = () => {
           </div>
           <TestimonialSlider />
         </div>
-      </section>
+      </section> */}
       {/*<< Faq Section Start >>*/}
       <section className="faq-section fix section-padding">
         <div className="faq-image">

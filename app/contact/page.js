@@ -2,8 +2,8 @@ import Breadcrumb from "@/components/Breadcrumb";
 import NetBandLayout from "@/layouts/NetBandLayout";
 const page = () => {
   return (
-    <NetBandLayout header={1} footer={2}>
-      <Breadcrumb pageTitle={"Contact Us"} />
+    <NetBandLayout header={2} footer={2}>
+      {/* <Breadcrumb pageTitle={"Contact Us"} /> */}
       {/*<< Contact Section Start >>*/}
       <section className="contact-main-area fix section-padding">
         <div className="container">

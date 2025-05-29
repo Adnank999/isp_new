@@ -7,7 +7,7 @@ import { useState } from "react";
 const page = () => {
   const [payment, setPayment] = useState("");
   return (
-    <NetBandLayout header={1} footer={2}>
+    <NetBandLayout header={2} footer={2}>
       <Breadcrumb pageTitle={"Checkout"} />
       <section className="checkout-section fix section-padding">
         <div className="container">

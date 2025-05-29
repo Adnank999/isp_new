@@ -171,8 +171,8 @@ const Header2 = ({ openSidebar, single, menus }) => {
             <ul className="contact-list">
               <li>
                 <i className="far fa-envelope" />
-                <a href="mailto:info@example.com" className="link">
-                  info@example.com
+                <a href="mailto:info@internetcherry.com" className="link">
+                  info@internetcherry.com
                 </a>
               </li>
               <li>
@@ -207,7 +207,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
               <div className="header-left">
                 <div className="logo">
                   <Link href="/" className="header-logo">
-                    <img src="assets/img/logo/logo.svg" alt="logo-img" />
+                    <img src="assets/img/logo/cclogo.png" alt="logo-img" />
                   </Link>
                 </div>
               </div>
@@ -217,7 +217,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
                     <Menus single={single} menus={menus} />
                   </div>
                 </div>
-                <div className="menu-cart">
+                {/* <div className="menu-cart">
                   <div className="cart-box">
                     <ul>
                       <li>
@@ -254,7 +254,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
                     <i className="far fa-shopping-cart" />
                   </Link>
                 </div>
-                <SearchBtn />
+                <SearchBtn /> */}
                 <div className="header-button">
                   <Link href="contact" className="theme-btn">
                     <span>

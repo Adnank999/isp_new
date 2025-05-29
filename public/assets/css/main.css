@@ -1847,6 +1847,8 @@ input.main-search-input::placeholder {
     display: none !important;
   }
 }
+
+
 .header-2 .container-fluid {
   padding: 0 130px;
 }
@@ -2041,6 +2043,7 @@ input.main-search-input::placeholder {
 }
 .header-2 .header-main .header-right .header__hamburger {
   margin-right: -70px;
+  
 }
 @media (max-width: 1899px) {
   .header-2 .header-main .header-right .header__hamburger {

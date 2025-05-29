@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Preloader />
+        {/* <Preloader /> */}
         {children}</body>
     </html>
   );

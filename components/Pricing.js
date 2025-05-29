@@ -33,15 +33,7 @@ const Pricing = () => {
                   <i className="far fa-check" />
                   Up to 15Mbps
                 </li>
-                <li>
-                  <i className="far fa-check" />
-                  Night Turbo-Speed
-                </li>
-
-                <li>
-                  <i className="far fa-check" />
-                  Unlimited devices
-                </li>
+                
               </ul>
               <div className="price">
                 ৳500 <span> | month </span>
@@ -56,6 +48,7 @@ const Pricing = () => {
             data-wow-delay=".4s"
           >
             <div className="pricing-card-items">
+               <span className="tag">popular</span>
               <div className="pricing-header">
                 <h6>Internet</h6>
                 <h3>Cherry Spark</h3>
@@ -70,15 +63,7 @@ const Pricing = () => {
                   <i className="far fa-check" />
                   Up to 25Mbps
                 </li>
-                <li>
-                  <i className="far fa-check" />
-                  Night Turbo-Speed
-                </li>
-
-                <li>
-                  <i className="far fa-check" />
-                  Unlimited devices
-                </li>
+               
               </ul>
               <div className="price">
                 ৳700 <span> | month </span>
@@ -111,15 +96,7 @@ const Pricing = () => {
                   <i className="far fa-check" />
                   Up to 40Mbps
                 </li>
-                <li>
-                  <i className="far fa-check" />
-                  Night Turbo-Speed
-                </li>
-
-                <li>
-                  <i className="far fa-check" />
-                  Unlimited devices
-                </li>
+              
               </ul>
               <div className="price">
                 ৳1000 <span> | month </span>
@@ -135,7 +112,7 @@ const Pricing = () => {
             data-wow-delay=".2s"
           >
             <div className="pricing-card-items">
-              <span className="tag">popular</span>
+            
               <div className="pricing-header">
                 <h6>Internet</h6>
                 <h3>Cherry Pop</h3>
@@ -150,15 +127,7 @@ const Pricing = () => {
                   <i className="far fa-check" />
                   Up to 50Mbps
                 </li>
-                <li>
-                  <i className="far fa-check" />
-                  Night Turbo-Speed
-                </li>
-
-                <li>
-                  <i className="far fa-check" />
-                  Unlimited devices
-                </li>
+                
               </ul>
               <div className="price">
                 ৳1200 <span> | month </span>
@@ -174,7 +143,7 @@ const Pricing = () => {
             data-wow-delay=".8s"
           >
             <div className="pricing-card-items">
-              <span className="tag">popular</span>
+             
               <div className="pricing-header">
                 <h6>Internet</h6>
                 <h3>Cherry Rush</h3>
@@ -195,15 +164,7 @@ const Pricing = () => {
                   <i className="far fa-check" />
                   Up to 60Mbps
                 </li>
-                <li>
-                  <i className="far fa-check" />
-                  Night Turbo-Speed
-                </li>
-
-                <li>
-                  <i className="far fa-check" />
-                  Unlimited devices
-                </li>
+                
               </ul>
               <div className="price">
                 ৳1500 <span> | month </span>
@@ -218,7 +179,7 @@ const Pricing = () => {
             data-wow-delay=".4s"
           >
             <div className="pricing-card-items">
-              <span className="tag">popular</span>
+           
               <div className="pricing-header">
                 <h6>Internet</h6>
                 <h3>Cherry Blast</h3>
@@ -233,15 +194,7 @@ const Pricing = () => {
                   <i className="far fa-check" />
                   Up to 80Mbps
                 </li>
-                <li>
-                  <i className="far fa-check" />
-                  Night Turbo-Speed
-                </li>
-
-                <li>
-                  <i className="far fa-check" />
-                  Unlimited devices
-                </li>
+               
               </ul>
               <div className="price">
                 ৳2000 <span> | month </span>
@@ -256,7 +209,7 @@ const Pricing = () => {
             data-wow-delay=".6s"
           >
             <div className="pricing-card-items">
-              <span className="tag">popular</span>
+             
               <div className="pricing-header">
                 <h6>Internet</h6>
                 <h3>Cherry Blaze</h3>
@@ -274,15 +227,7 @@ const Pricing = () => {
                   <i className="far fa-check" />
                   Up to 100Mbps
                 </li>
-                <li>
-                  <i className="far fa-check" />
-                  Night Turbo-Speed
-                </li>
-
-                <li>
-                  <i className="far fa-check" />
-                  Unlimited devices
-                </li>
+                
               </ul>
               <div className="price">
                 ৳3000 <span> | month </span>
@@ -317,15 +262,7 @@ const Pricing = () => {
                   <i className="far fa-check" />
                   Up to 120Mbps
                 </li>
-                <li>
-                  <i className="far fa-check" />
-                  Night Turbo-Speed
-                </li>
-
-                <li>
-                  <i className="far fa-check" />
-                  Unlimited devices
-                </li>
+                
               </ul>
               <div className="price">
                 ৳4000 <span> | month </span>

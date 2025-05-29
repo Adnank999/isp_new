@@ -9,8 +9,8 @@ import NetBandLayout from "@/layouts/NetBandLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <NetBandLayout header={1} footer={2}>
-      <Breadcrumb pageTitle={"about us"} />
+    <NetBandLayout header={2} footer={2}>
+      {/* <Breadcrumb pageTitle={"about us"} /> */}
       {/*<< About Section Start >>*/}
       <section className="about-section fix section-padding">
         <div className="container">
@@ -29,14 +29,17 @@ const page = () => {
               </div>
               <div className="col-lg-4 mt-5 mt-lg-0">
                 <div className="mt-5">
-                    <h2 >Who We Are</h2>
-                    <p className="pt-2">
-                      We proudly stand as the nation's largest and #1 fiber broadband internet service provider, as recognized
-                      by APNIC. Our aim is to ensure high-speed, reliable internet for the whole nation, bridging connectivity
-                      gaps even in fiber-inaccessible regions. With our legacy of trust, we empower individuals, businesses, and
-                      communities to flourish in today's digital landscape.
-                    </p>
-                  </div>
+                  <h2>Who We Are</h2>
+                  <p className="pt-2">
+                    We proudly stand as the nation's largest and #1 fiber
+                    broadband internet service provider, as recognized by APNIC.
+                    Our aim is to ensure high-speed, reliable internet for the
+                    whole nation, bridging connectivity gaps even in
+                    fiber-inaccessible regions. With our legacy of trust, we
+                    empower individuals, businesses, and communities to flourish
+                    in today's digital landscape.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -62,9 +65,7 @@ const page = () => {
                   <i className="flaticon-wifi-router-5" />
                 </div>
                 <div className="content">
-                  <h3>
-                   Broadband
-                  </h3>
+                  <h3>Broadband</h3>
                   <p>We approached WiaTech with complex project deliver</p>
                   {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
@@ -76,14 +77,12 @@ const page = () => {
               className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
               data-wow-delay=".5s"
             >
-              <div className="service-box-items active">
+              <div className="service-box-items ">
                 <div className="icon">
                   <i className="flaticon-wi-fi" />
                 </div>
                 <div className="content">
-                  <h3>
-                    WIFI Internet
-                  </h3>
+                  <h3>WIFI Internet</h3>
                   <p>We approached WiaTech with complex project deliver</p>
                   {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
@@ -100,9 +99,7 @@ const page = () => {
                   <i className="flaticon-satellite-tv" />
                 </div>
                 <div className="content">
-                  <h3>
-                    Low Latency
-                  </h3>
+                  <h3>Low Latency</h3>
                   <p>We offer low latency internet services 24/7</p>
                   {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
@@ -119,9 +116,7 @@ const page = () => {
                   <i className="flaticon-tv-box" />
                 </div>
                 <div className="content">
-                  <h3>
-                    Upstream
-                  </h3>
+                  <h3>Upstream</h3>
                   <p>Our upstream services quality is better than others</p>
                   {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
@@ -133,7 +128,61 @@ const page = () => {
         </div>
       </section>
       {/*<< Manage It Section Start >>*/}
-      <ManageItSection />
+      {/* <ManageItSection /> */}
+      {/* Home section included  */}
+
+      <section className="trusted-client-section fix section-padding">
+        <div className="container custom-container-2">
+          <div className="cta-subscribe-wrapper">
+            <div className="row justify-content-between">
+              <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
+                <div className="cta-subscribe-image">
+                  <img src="assets/img/feature/trusted.jpg" alt="img" />
+                </div>
+              </div>
+              <div className="col-lg-5 mt-5 mt-md-0">
+                <div className="cta-subscribe-content">
+                  <div className="section-title">
+                    <span className="wow fadeInUp">Immersive experience</span>
+                    <h2 className="wow fadeInUp" data-wow-delay=".3s">
+                      Enjoy Bufferless Youtube <br /> TV Shows &amp; More
+                    </h2>
+                  </div>
+                  <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
+                    Real-time internet with low ping is the backbone of a
+                    seamless digital experience, ensuring smooth interactions
+                    across gaming, streaming, video conferencing, and other
+                    online activities. A low ping—or low latency—means minimal
+                    delay between a user's action and the system's response,
+                    creating an instantaneous and uninterrupted experience.
+                  </p>
+                  <h4
+                    className="cta-sub-title wow fadeInUp"
+                    data-wow-delay=".3s"
+                  >
+                    <span>Pick the broadband plan </span> <br />
+                    that matches your needs
+                  </h4>
+                  <div className="subscribe-plan">
+                    <h3 className="price wow fadeInUp" data-wow-delay=".5s">
+                      <span>starts only</span> ৳500<sub>/Mon</sub>
+                    </h3>
+                    <Link
+                      href="pricing"
+                      className="link-btn style-2 wow fadeInUp"
+                      data-wow-delay=".7s"
+                    >
+                      <span>View All Plans</span>{" "}
+                      <i className="fas fa-chevron-right" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/*<< Cta Parallax Section Start >>*/}
       <div
         className="cta-parallax-section bg-cover"
@@ -167,7 +216,7 @@ const page = () => {
           <div className="counter-wrapper">
             <div className="counter-items">
               <h2>
-                <Counter end={20} />+
+                <Counter end={10} />+
               </h2>
               <p>
                 YEARS OF <br />
@@ -176,31 +225,22 @@ const page = () => {
             </div>
             <div className="counter-items">
               <h2>
-                <Counter end={220} />k
+                + <Counter end={1000} />
               </h2>
               <p>
-                CLIENTS IN <br />
-                THE WORLD
+                Customers
               </p>
             </div>
             <div className="counter-items">
               <h2>
-                <Counter end={25} />k
+                <Counter end={25000} />
               </h2>
               <p>
                 KILOMETERS <br />
                 OF FIBERS
               </p>
             </div>
-            <div className="counter-items">
-              <h2>
-                <Counter end={991} />
-              </h2>
-              <p>
-                SATELLITE <br />
-                CHANNELS
-              </p>
-            </div>
+           
           </div>
         </div>
       </section>

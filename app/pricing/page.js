@@ -4,8 +4,8 @@ import NetBandLayout from "@/layouts/NetBandLayout";
 import Link from "next/link";
 const page = () => {
   return (
-    <NetBandLayout header={1} footer={2}>
-      <Breadcrumb pageTitle={"Our Pricing"} />
+    <NetBandLayout header={2} footer={2}>
+      {/* <Breadcrumb pageTitle={"Our Pricing"} /> */}
       {/*<< Feature Section Start >>*/}
       {/* <section className="feature-section fix section-padding">
         <div className="shape-image">

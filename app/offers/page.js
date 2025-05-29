@@ -38,7 +38,7 @@ const page = () => {
     },
   ];
   return (
-    <NetBandLayout header={1} footer={2}>
+    <NetBandLayout header={2} footer={2}>
       <Breadcrumb pageTitle={"our offers"} />
       <section className="service-section fix section-padding">
         <div className="container">

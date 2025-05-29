@@ -14,19 +14,19 @@ const BrandSlider = () => {
         <img src="assets/img/brand/01.png" alt="brand-img" />
       </div>
       <div className="brand-image">
-        <img src="assets/img/brand/01.png" alt="brand-img" />
+        <img src="assets/img/brand/02.png" alt="brand-img" />
+      </div>
+      <div className="brand-image">
+        <img src="assets/img/brand/03.png" alt="brand-img" />
       </div>
       <div className="brand-image">
         <img src="assets/img/brand/01.png" alt="brand-img" />
       </div>
       <div className="brand-image">
-        <img src="assets/img/brand/01.png" alt="brand-img" />
+        <img src="assets/img/brand/02.png" alt="brand-img" />
       </div>
       <div className="brand-image">
-        <img src="assets/img/brand/01.png" alt="brand-img" />
-      </div>
-      <div className="brand-image">
-        <img src="assets/img/brand/01.png" alt="brand-img" />
+        <img src="assets/img/brand/03.png" alt="brand-img" />
       </div>
       <div className="brand-image">
         <img src="assets/img/brand/01.png" alt="brand-img" />

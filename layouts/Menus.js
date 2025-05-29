@@ -219,20 +219,20 @@ const Menus = ({ single, menus }) => {
           <li>
             <Link href="about">About Us</Link>
           </li>
-          <li>
+          {/* <li>
             <Link href="offers">
               Offers
-              {/* <i className="fas fa-angle-down" /> */}
+              <i className="fas fa-angle-down" />
             </Link>
-            {/* <ul className="submenu">
+            <ul className="submenu">
               <li>
                 <Link href="service">Services</Link>
               </li>
               <li>
                 <Link href="service-details">Service Details</Link>
               </li>
-            </ul> */}
-          </li>
+            </ul>
+          </li> */}
           <li className="has-dropdown">
             <Link href="pricing">
               Pricing
@@ -282,7 +282,7 @@ const Menus = ({ single, menus }) => {
             <Link href="contact">Contact</Link>
           </li>
           <li>
-            <Link href="checkout">
+            <Link href="https://www.google.com" target="_blank">
               Pay Bills
               {/* <i className="fas fa-angle-down" /> */}
             </Link>
