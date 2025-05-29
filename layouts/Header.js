@@ -177,7 +177,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
               </li>
               <li>
                 <i className="fas fa-phone-alt" />
-                <a href="tel:2086660112">+208-666-0112</a>
+                <a href="tel:+09613338833">+09613338833</a>
               </li>
             </ul>
             <div className="top-right">

@@ -10,9 +10,9 @@ const BrandSlider = () => {
       {...sliderProps.brandCarouselActive}
       className="brand-carousel-active"
     >
-      <div className="brand-image">
+      {/* <div className="brand-image">
         <img src="assets/img/brand/01.png" alt="brand-img" />
-      </div>
+      </div> */}
       <div className="brand-image">
         <img src="assets/img/brand/02.png" alt="brand-img" />
       </div>
@@ -20,17 +20,15 @@ const BrandSlider = () => {
         <img src="assets/img/brand/03.png" alt="brand-img" />
       </div>
       <div className="brand-image">
-        <img src="assets/img/brand/01.png" alt="brand-img" />
+        <img src="assets/img/brand/04.png" alt="brand-img" />
       </div>
       <div className="brand-image">
-        <img src="assets/img/brand/02.png" alt="brand-img" />
+        <img src="assets/img/brand/05.png" alt="brand-img" />
       </div>
       <div className="brand-image">
-        <img src="assets/img/brand/03.png" alt="brand-img" />
+        <img src="assets/img/brand/06.png" alt="brand-img" />
       </div>
-      <div className="brand-image">
-        <img src="assets/img/brand/01.png" alt="brand-img" />
-      </div>
+      
     </Slider>
   );
 };
