@@ -281,20 +281,20 @@ const Footer2 = () => {
                 </div>
                 <ul className="list-items">
                   <li>
-                    <Link href="service-details">Services</Link>
+                    <Link href="offers">Offers</Link>
                   </li>
                   <li>
                     <Link href="about">About company</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="news-details">latest news</Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="team">team member</Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="testimonial">testimonials</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -307,21 +307,21 @@ const Footer2 = () => {
                   <h5>My account</h5>
                 </div>
                 <ul className="list-items">
-                  <li>
+                  {/* <li>
                     <Link href="contact">Forum Support</Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <Link href="faq">Help &amp; FAQ</Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link href="contact">Contact Us</Link>
                   </li>
                   <li>
                     <Link href="pricing">Pricing and plans</Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="contact">Cookies Policy</Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -343,7 +343,7 @@ const Footer2 = () => {
                 </div>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-xl-3 ps-xl-5 col-sm-6 col-md-6 col-lg-4 wow fadeInUp"
               data-wow-delay=".9s"
             >
@@ -369,7 +369,7 @@ const Footer2 = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
