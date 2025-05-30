@@ -55,7 +55,7 @@ const Pricing = () => {
               </div>
               <ul className="icon-items">
                 <li>
-                  <i className="flaticon-smart-tv" />
+                  <i className="flaticon-connection" />
                 </li>
               </ul>
               <ul className="price-list">
@@ -120,6 +120,9 @@ const Pricing = () => {
               <ul className="icon-items">
                 <li>
                   <i className="flaticon-connection" />
+                </li>
+                <li>
+                  <i className="flaticon-smart-tv" />
                 </li>
               </ul>
               <ul className="price-list">
@@ -186,7 +189,13 @@ const Pricing = () => {
               </div>
               <ul className="icon-items">
                 <li>
+                  <i className="flaticon-connection" />
+                </li>
+                <li>
                   <i className="flaticon-smart-tv" />
+                </li>
+                <li>
+                  <i className="flaticon-smart-tv-3" />
                 </li>
               </ul>
               <ul className="price-list">
@@ -220,6 +229,10 @@ const Pricing = () => {
                 </li>
                 <li>
                   <i className="flaticon-smart-tv" />
+                </li>
+
+                <li>
+                  <i className="flaticon-smart-tv-3" />
                 </li>
               </ul>
               <ul className="price-list">

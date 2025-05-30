@@ -186,7 +186,7 @@ const page = () => {
       {/*<< Cta Parallax Section Start >>*/}
       <div
         className="cta-parallax-section bg-cover"
-        style={{ backgroundImage: 'url("assets/img/banner/02.jpg")' }}
+        style={{ backgroundImage: 'url("assets/img/banner/02.png")' }}
       >
         <div className="container">
           <div className="cta-parallax-wrapper text-center">

@@ -1160,7 +1160,7 @@ input.main-search-input::placeholder {
   }
 }
 .header-top-section-3 .container-fluid {
-  padding: 0 100px;
+  padding: 0 10px;
 }
 @media (max-width: 1399px) {
   .header-top-section-3 .container-fluid {
@@ -1519,8 +1519,9 @@ input.main-search-input::placeholder {
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 5px 0;
+
 }
 @media (max-width: 991px) {
   .header-main {
@@ -1771,10 +1772,12 @@ input.main-search-input::placeholder {
 }
 .header-1 .mega-menu-wrapper .header-main .header-right {
   gap: 90px;
+  
 }
 @media (max-width: 1899px) {
   .header-1 .mega-menu-wrapper .header-main .header-right {
     gap: 30px;
+    
   }
 }
 @media (max-width: 1399px) {
@@ -1795,6 +1798,7 @@ input.main-search-input::placeholder {
       -ms-flex-align: center;
           align-items: center;
   gap: 20px;
+  
 }
 @media (max-width: 1600px) {
   .header-1 .mega-menu-wrapper .header-main .header-right .contact-info {
@@ -1837,7 +1841,7 @@ input.main-search-input::placeholder {
   top: 0;
   bottom: 0;
   height: 100%;
-  width: 125px;
+  width: 0px;
   content: "";
   background-color: var(--theme);
   z-index: -1;
@@ -1851,6 +1855,7 @@ input.main-search-input::placeholder {
 
 .header-2 .container-fluid {
   padding: 0 130px;
+  /* background-color: black; */
 }
 @media (max-width: 1399px) {
   .header-2 .container-fluid {
@@ -1882,11 +1887,20 @@ input.main-search-input::placeholder {
   }
 }
 .header-2 .header-main .header-right {
-  gap: 30px;
+  gap: 130px;
+
+ 
 }
 @media (max-width: 991px) {
   .header-2 .header-main .header-right {
     gap: 25px;
+      
+  
+  }
+}
+@media(min-width: 1400px){
+  .header-2 .header-main .header-right {
+    padding-right: 300px;
   }
 }
 .header-2 .header-main .header-right .menu-cart {
@@ -2042,23 +2056,32 @@ input.main-search-input::placeholder {
   }
 }
 .header-2 .header-main .header-right .header__hamburger {
-  margin-right: -70px;
+  /* margin-right: -70px; */
+    margin-right: 0px;
+    
   
 }
 @media (max-width: 1899px) {
   .header-2 .header-main .header-right .header__hamburger {
     margin-right: 0;
+   
   }
 }
 .header-2 .header-main .header-right .header__hamburger .sidebar__toggle {
   font-size: 24px;
   color: var(--white);
+  display: none;
 }
-@media (max-width: 1899px) {
+@media (max-width: 1299px) {
   .header-2 .header-main .header-right .header__hamburger .sidebar__toggle {
     color: var(--theme);
+    display: block;
+   
   }
 }
+
+
+
 
 .header-tops-section {
   background-color: var(--theme);
@@ -3765,8 +3788,50 @@ input.main-search-input::placeholder {
     margin-left: 0;
   }
 }
+/* Custom tab styles in pricing */
+.custom-tab-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+   
+}
+.custom-tab-container .nav-link {
+  color: black; /* Set link color to black */
+}
+ .custom-tab {
+   --angle: 45deg; 
+  background: linear-gradient(var(--angle), oklch(49.7% 0.18 26.8), oklch(53.3% 0.188 26.4), oklch(56.9% 0.197 26.1), oklch(60.5% 0.205 25.8), oklch(64% 0.213 25.6));
+  padding: 0px 40px;
+  padding-top: 22px;
+  border-radius: 205px;
+  border: 1px solid #000000;
+}
+
+.active-tab {
+  color: white !important; 
+  font-weight: 600;
+  border-radius: 30px; 
+  background: rgba(255, 255, 255, 0.3); 
+  backdrop-filter: blur(50px); 
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  padding: 10px 20px; 
+  transition: background 0.3s ease; 
+}
+
+.icon-padding{
+  padding-left: 50px;
+  margin-left: 50px;
+}
+
+
+/* end */
+
+
 .trusted-client-wrapper .trusted-content .single-tab-items {
   margin-top: 50px;
+ 
 }
 @media (max-width: 575px) {
   .trusted-client-wrapper .trusted-content .single-tab-items {
@@ -3780,6 +3845,7 @@ input.main-search-input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  
   gap: 30px;
 }
 @media (max-width: 575px) {
@@ -3858,6 +3924,7 @@ input.main-search-input::placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  
   gap: 35px;
 }
 @media (max-width: 767px) {

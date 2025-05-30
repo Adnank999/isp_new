@@ -165,7 +165,7 @@ const Header1 = ({ openSidebar, single, menus }) => {
 const Header2 = ({ openSidebar, single, menus }) => {
   return (
     <header>
-      <div className="header-tops-section fix">
+      {/* <div className="header-tops-section fix">
         <div className="container-fluid">
           <div className="header-tops-wrapper">
             <ul className="contact-list">
@@ -199,7 +199,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       <div id="header-sticky" className="header-2">
         <div className="container-fluid">
           <div className="mega-menu-wrapper">
@@ -255,12 +255,10 @@ const Header2 = ({ openSidebar, single, menus }) => {
                   </Link>
                 </div>
                 <SearchBtn /> */}
-                <div className="header-button">
-                  <Link href="contact" className="theme-btn">
-                    <span>
-                      get A Quote
-                      <i className="fas fa-chevron-right" />
-                    </span>
+                <div className="">
+                  <Link href="https://wa.me/+09613338833" className="" style={{fontSize: "2.5rem", color: "#25D366"}}>
+                    <i className="fab fa-whatsapp" aria-hidden="true" />
+                    
                   </Link>
                 </div>
                 <div className="header__hamburger d-xl-block my-auto">

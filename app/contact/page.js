@@ -8,7 +8,7 @@ const page = () => {
       <section className="contact-main-area fix section-padding">
         <div className="container">
           <div className="contact-main-wrapper">
-            <div className="row g-4">
+            <div className="row g-4 align-items-center">
               <div className="col-lg-6">
                 <div className="contact-content">
                   <div className="section-title mb-2">
@@ -90,12 +90,12 @@ const page = () => {
                       </div>
                     </div>
                   </div>
-                  <div
+                  {/* <div
                     className="contact-image wow fadeInUp"
                     data-wow-delay=".4s"
                   >
                     <img src="assets/img/contact.jpg" alt="img" />
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-lg-6 mt-5 mt-lg-0">

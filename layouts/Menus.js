@@ -348,14 +348,14 @@ export const MobileMenu = ({ menus, single }) => {
       <ul>
         <li className="has-dropdown active d-lg-none">
           <a
-            href="#"
+            href="/"
             className="border-none"
             onClick={() => activeMenuSet("home")}
           >
             Home
-            <i className="fas fa-angle-down" />
+            {/* <i className="fas fa-angle-down" /> */}
           </a>
-          <ul className="submenu" style={activeLi("home")}>
+          {/* <ul className="submenu" style={activeLi("home")}>
             <li>
               <Link href="/">Home 01</Link>
             </li>
@@ -368,14 +368,14 @@ export const MobileMenu = ({ menus, single }) => {
             <li>
               <Link href="index-4">Home 04</Link>
             </li>
-          </ul>
-          <a
+          </ul> */}
+          {/* <a
             className="mean-expand"
             href="#"
             onClick={() => activeMenuSet("home")}
           >
             <i className="far fa-plus" />
-          </a>
+          </a> */}
         </li>
         {single ? (
           <Fragment>
@@ -393,31 +393,31 @@ export const MobileMenu = ({ menus, single }) => {
               <Link href="about">About</Link>
             </li>
             <li>
-              <a href="#" onClick={() => activeMenuSet("Services")}>
-                Services <i className="fas fa-angle-down" />
-              </a>
-              <ul className="submenu" style={activeLi("Services")}>
+              <Link href="pricing" onClick={() => activeMenuSet("Pricing")}>
+               Pricing 
+              </Link>
+              {/* <ul className="submenu" style={activeLi("Services")}>
                 <li>
                   <Link href="service">Services</Link>
                 </li>
                 <li>
                   <Link href="service-details">Service Details</Link>
                 </li>
-              </ul>
-              <a
+              </ul> */}
+              {/* <a
                 className="mean-expand"
                 href="#"
                 onClick={() => activeMenuSet("Services")}
               >
                 <i className="far fa-plus" />
-              </a>
+              </a> */}
             </li>
             <li className="has-dropdown">
-              <a href="#" onClick={() => activeMenuSet("Pages")}>
-                Pages
-                <i className="fas fa-angle-down" />
-              </a>
-              <ul className="submenu" style={activeLi("Pages")}>
+              <Link href="contact" onClick={() => activeMenuSet("Contact")}>
+                Contact
+                {/* <i className="fas fa-angle-down" /> */}
+              </Link>
+              {/* <ul className="submenu" style={activeLi("Pages")}>
                 <li className="has-dropdown">
                   <a href="#" onClick={() => multiMenuSet("Shows")}>
                     Shows
@@ -476,14 +476,14 @@ export const MobileMenu = ({ menus, single }) => {
                 onClick={() => activeMenuSet("Pages")}
               >
                 <i className="far fa-plus" />
-              </a>
+              </a> */}
             </li>
             <li>
-              <a href="#" onClick={() => activeMenuSet("Shop")}>
-                Shop
-                <i className="fas fa-angle-down" />
-              </a>
-              <ul className="submenu" style={activeLi("Shop")}>
+              <Link href="https://www.google.com" target="_blank" onClick={() => activeMenuSet("PayBills")}>
+                Pay Bills
+                
+              </Link>
+              {/* <ul className="submenu" style={activeLi("Shop")}>
                 <li>
                   <Link href="shop">Shop Page</Link>
                 </li>
@@ -503,7 +503,7 @@ export const MobileMenu = ({ menus, single }) => {
                 onClick={() => activeMenuSet("Shop")}
               >
                 <i className="far fa-plus" />
-              </a>
+              </a> */}
             </li>
             <li>
               <a href="#" onClick={() => activeMenuSet("Blog")}>
