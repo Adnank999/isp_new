@@ -1,7 +1,7 @@
 "use client";
 import Breadcrumb from "@/components/Breadcrumb";
 import Counter from "@/components/Counter";
-import Tab from "@/components/CustomTab";
+import CustomTab from "@/components/CustomTab";
 import NetBandLayout from "@/layouts/NetBandLayout";
 import Link from "next/link";
 
@@ -17,7 +17,7 @@ const page = () => {
           <div className="section-title text-center mb-0 ">
             {/* <span>OUR PRICING PLAN</span> */}
             <h2>Our Pricing Plan</h2>
-              <Tab/>
+              <CustomTab/>
           </div>
           {/* <div className="row pt-5 g-4">
             <div className="pricing-wrapper">

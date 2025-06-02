@@ -5,11 +5,11 @@ import NetBandAccordion from "@/components/NetBandAccordion";
 import Link from "next/link";
 
 const CustomTab = () => {
-  const [activeTab, setActiveTab] = useState("regular");
+  const [activeTab, setActiveTab] = useState("home");
   return (
     <div className="custom-tab-container">
       <Tab.Container
-        defaultActiveKey={"regular"}
+        defaultActiveKey={"home"}
         activeKey={activeTab}
         onSelect={(selectedKey) => setActiveTab(selectedKey)}
       >
@@ -22,11 +22,11 @@ const CustomTab = () => {
             >
               <Nav.Link
                 as={"a"}
-                eventKey={"regular"}
-                href="#regular"
-                className={activeTab === "regular" ? "active-tab" : ""}
+                eventKey={"home"}
+                href="#home"
+                className={activeTab === "home" ? "active-tab" : ""}
               >
-                Regular
+                Home
               </Nav.Link>
             </Nav.Item>
             <Nav.Item
@@ -36,11 +36,11 @@ const CustomTab = () => {
             >
               <Nav.Link
                 as={"a"}
-                eventKey={"sme"}
-                href="#sme"
-                className={activeTab === "sme" ? "active-tab" : ""}
+                eventKey={"bussiness"}
+                href="#bussiness"
+                className={activeTab === "bussiness" ? "active-tab" : ""}
               >
-                SME
+                Bussiness
               </Nav.Link>
             </Nav.Item>
             <Nav.Item
@@ -61,8 +61,8 @@ const CustomTab = () => {
         </div>
 
         <Tab.Content className="">
-          <Tab.Pane eventKey="regular" className="tab-pane fade">
-            {activeTab === "regular" && (
+          <Tab.Pane eventKey="home" className="tab-pane fade">
+            {activeTab === "home" && (
               <div className="row pt-5 g-4">
                 <div className="pricing-wrapper">
                   <div className="row justify-content-between align-items-center">
@@ -88,20 +88,28 @@ const CustomTab = () => {
                         <ul className="price-list">
                           <li>
                             <i className="far fa-check" />
-                            Internet with a 15 Mbps
+                            100Mbps Facebook
                           </li>
 
                           <li>
                             <i className="far fa-check" />
-                            100 Mbps BDIX and Other Speed
+                            100Mbps YouTube
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            4K Youtube and Facebook Stream.
+                            4K YouTube & Facebook Streaming
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            Optical Fiber Connection
+                            Pure Optical Fiber
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support .
                           </li>
                         </ul>
                         <div className="price-button">
@@ -141,20 +149,28 @@ const CustomTab = () => {
                         <ul className="price-list">
                           <li>
                             <i className="far fa-check" />
-                            Internet with a 25 Mbps
+                            100Mbps Facebook
                           </li>
 
                           <li>
                             <i className="far fa-check" />
-                            100 Mbps BDIX and Other Speed
+                            100Mbps YouTube
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            4K Youtube and Facebook Stream.
+                            4K YouTube & Facebook Streaming
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            Optical Fiber Connection
+                            Pure Optical Fiber
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support .
                           </li>
                         </ul>
                         <div className="price-button">
@@ -170,7 +186,7 @@ const CustomTab = () => {
                     </div>
                   </div>
                 </div>
-                <div className="pricing-wrapper ">
+                <div className="pricing-wrapper">
                   <div className="row justify-content-between align-items-center">
                     <div className="col-xxl-6 col-xl-6 col-lg-12">
                       <div className="pricing-content-box d-flex align-items-center justify-content-between">
@@ -182,7 +198,7 @@ const CustomTab = () => {
                             <h2>40 Mbps</h2>
                           </span>
                         </div>
-                        <div className="price-icon icon-padding">
+                        <div className="price-icon">
                           <div className="icon">
                             <i className="flaticon-television" />
                           </div>
@@ -197,20 +213,28 @@ const CustomTab = () => {
                         <ul className="price-list">
                           <li>
                             <i className="far fa-check" />
-                            Internet with a 40 Mbps
+                            100Mbps Facebook
                           </li>
 
                           <li>
                             <i className="far fa-check" />
-                            100 Mbps BDIX and Other Speed
+                            100Mbps YouTube
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            4K Youtube and Facebook Stream.
+                            4K YouTube & Facebook Streaming
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            Optical Fiber Connection
+                            Pure Optical Fiber
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support .
                           </li>
                         </ul>
                         <div className="price-button">
@@ -253,20 +277,28 @@ const CustomTab = () => {
                         <ul className="price-list">
                           <li>
                             <i className="far fa-check" />
-                            Internet with a 50 Mbps
+                            100Mbps Facebook
                           </li>
 
                           <li>
                             <i className="far fa-check" />
-                            100 Mbps BDIX and Other Speed
+                            100Mbps YouTube
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            4K Youtube and Facebook Stream.
+                            4K YouTube & Facebook Streaming
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            Optical Fiber Connection
+                            Pure Optical Fiber
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support .
                           </li>
                         </ul>
                         <div className="price-button">
@@ -312,20 +344,36 @@ const CustomTab = () => {
                         <ul className="price-list">
                           <li>
                             <i className="far fa-check" />
-                            Internet with a 60 Mbps
+                            100Mbps Facebook
                           </li>
 
                           <li>
                             <i className="far fa-check" />
-                            100 Mbps BDIX and Other Speed
+                            100Mbps YouTube
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            4K Youtube and Facebook Stream.
+                            100 Mbps BDIX Speed
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            Optical Fiber Connection
+                            4K YouTube & Facebook Streaming
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Pure Optical Fiber
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Unlimited Usage
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support .
                           </li>
                         </ul>
                         <div className="price-button">
@@ -371,20 +419,36 @@ const CustomTab = () => {
                         <ul className="price-list">
                           <li>
                             <i className="far fa-check" />
-                            Internet with a 80 Mbps
+                            100Mbps Facebook
                           </li>
 
                           <li>
                             <i className="far fa-check" />
-                            100 Mbps BDIX and Other Speed
+                            100Mbps YouTube
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            4K Youtube and Facebook Stream.
+                            100 Mbps BDIX Speed
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            Optical Fiber Connection
+                            4K YouTube & Facebook Streaming
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Pure Optical Fiber
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Unlimited Usage
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support .
                           </li>
                         </ul>
                         <div className="price-button">
@@ -403,19 +467,19 @@ const CustomTab = () => {
               </div>
             )}
           </Tab.Pane>
-          <Tab.Pane eventKey="sme" className="tab-pane fade">
-            {activeTab === "sme" && (
+          <Tab.Pane eventKey="bussiness" className="tab-pane fade">
+            {activeTab === "bussiness" && (
               <div className="row pt-5 g-4">
                 <div className="pricing-wrapper">
                   <div className="row justify-content-between align-items-center">
                     <div className="col-xxl-6 col-xl-6 col-lg-12">
                       <div className="pricing-content-box d-flex align-items-center justify-content-between">
                         <div className="price-content">
-                          <h3>Cherry Blaze</h3>
+                          <h3>Basic</h3>
 
                           <p>Installation Charge: none</p>
                           <span class="cardPrice3">
-                            <h2>100 Mbps</h2>
+                            <h2>25 Mbps</h2>
                           </span>
                         </div>
                         <div className="price-icon">
@@ -436,22 +500,112 @@ const CustomTab = () => {
                         <ul className="price-list">
                           <li>
                             <i className="far fa-check" />
-                            Internet with a 100 Mbps
+                            25 Mbps Stable Internet
                           </li>
 
                           <li>
                             <i className="far fa-check" />
-                            100 Mbps BDIX and Other Speed
+                            100 Mbps BDIX Speed
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            4K Youtube and Facebook Stream.
+                            4K YouTube & Facebook Streaming
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            Optical Fiber Connection
+                            Pure Optical Fiber
                           </li>
-                        
+                          <li>
+                            <i className="far fa-check" />
+                            Unlimited Usage
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Low Latancy
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support
+                          </li>
+                        </ul>
+                        <div className="price-button">
+                          <h3>
+                            <i>৳</i>2000
+                            <span>/mo</span>
+                          </h3>
+                          <Link href="contact" className="theme-btn">
+                            <span>Get Started</span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="pricing-wrapper ">
+                  <div className="row justify-content-between align-items-center">
+                    <div className="col-xxl-6 col-xl-6 col-lg-12">
+                      <div className="pricing-content-box d-flex align-items-center justify-content-between">
+                        <div className="price-content">
+                          <h3>Startup</h3>
+
+                          <p>Installation Charge: none</p>
+                          <span class="cardPrice2">
+                            <h2>40 Mbps</h2>
+                          </span>
+                        </div>
+                        <div className="price-icon">
+                          <div className="icon">
+                            <i className="flaticon-television" />
+                          </div>
+                          <div className="icon">
+                            <i className="flaticon-smartphone" />
+                          </div>
+                          <div className="icon">
+                            <i className="flaticon-connection" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xxl-5 col-xl-6 col-lg-12">
+                      <div className="pricing-list-items d-flex align-items-center">
+                        <ul className="price-list">
+                          <li>
+                            <i className="far fa-check" />
+                            40 Mbps Stable Internet
+                          </li>
+
+                          <li>
+                            <i className="far fa-check" />
+                            100 Mbps BDIX Speed
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            4K YouTube & Facebook Streaming
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Pure Optical Fiber
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Unlimited Usage
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Low Latancy
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support
+                          </li>
                         </ul>
                         <div className="price-button">
                           <h3>
@@ -471,11 +625,11 @@ const CustomTab = () => {
                     <div className="col-xxl-6 col-xl-6 col-lg-12">
                       <div className="pricing-content-box d-flex align-items-center justify-content-between">
                         <div className="price-content">
-                          <h3>Cherry Max</h3>
+                          <h3>Boost</h3>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice4">
-                            <h2>150 Mbps</h2>
+                          <span class="cardPrice5">
+                            <h2>60 Mbps</h2>
                           </span>
                         </div>
                         <div className="price-icon">
@@ -496,22 +650,37 @@ const CustomTab = () => {
                         <ul className="price-list">
                           <li>
                             <i className="far fa-check" />
-                            Internet with a 120 Mbps
+                            60 Mbps Stable Internet
                           </li>
 
                           <li>
                             <i className="far fa-check" />
-                            100 Mbps BDIX and Other Speed
+                            100 Mbps BDIX Speed
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            4K Youtube and Facebook Stream.
+                            4K YouTube & Facebook Streaming
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            Optical Fiber Connection
+                            Pure Optical Fiber
                           </li>
-                      
+                          <li>
+                            <i className="far fa-check" />
+                            Unlimited Usage
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Low Latancy
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support
+                          </li>
                         </ul>
                         <div className="price-button">
                           <h3>
@@ -522,6 +691,241 @@ const CustomTab = () => {
                             <span>Get Started</span>
                           </Link>
                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="pricing-wrapper ">
+                  <div className="row justify-content-between align-items-center">
+                    <div className="col-xxl-6 col-xl-6 col-lg-12">
+                      <div className="pricing-content-box d-flex align-items-center justify-content-between">
+                        <div className="price-content">
+                          <h3>Ultra</h3>
+
+                          <p>Installation Charge: none</p>
+                          <span className="cardPrice4">
+                            <h2>90 Mbps</h2>
+                          </span>
+                        </div>
+                        <div className="price-icon">
+                          <div className="icon">
+                            <i className="flaticon-television" />
+                          </div>
+                          <div className="icon">
+                            <i className="flaticon-smartphone" />
+                          </div>
+                          <div className="icon">
+                            <i className="flaticon-connection" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xxl-5 col-xl-6 col-lg-12">
+                      <div className="pricing-list-items d-flex align-items-center">
+                        <ul className="price-list">
+                          <li>
+                            <i className="far fa-check" />
+                            90 Mbps Stable Internet
+                          </li>
+
+                          <li>
+                            <i className="far fa-check" />
+                            200 Mbps BDIX Speed
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            4K YouTube & Facebook Streaming
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Pure Optical Fiber
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Unlimited Usage
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Low Latancy
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support
+                          </li>
+                        </ul>
+                        <div className="price-button">
+                          <h3>
+                            <i>৳</i>6000
+                            <span>/mo</span>
+                          </h3>
+                          <Link href="contact" className="theme-btn">
+                            <span>Get Started</span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="pricing-wrapper ">
+                  <div className="row justify-content-between align-items-center">
+                    <div className="col-xxl-6 col-xl-6 col-lg-12">
+                      <div className="pricing-content-box d-flex align-items-center justify-content-between">
+                        <div className="price-content">
+                          <h3>Base</h3>
+
+                          <p>Installation Charge: none</p>
+                          <span className="cardPrice2">
+                            <h2>120 Mbps</h2>
+                          </span>
+                        </div>
+                        <div className="price-icon">
+                          <div className="icon">
+                            <i className="flaticon-television" />
+                          </div>
+                          <div className="icon">
+                            <i className="flaticon-smartphone" />
+                          </div>
+                          <div className="icon">
+                            <i className="flaticon-connection" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xxl-5 col-xl-6 col-lg-12">
+                      <div className="pricing-list-items d-flex align-items-center">
+                        <ul className="price-list">
+                          <li>
+                            <i className="far fa-check" />
+                            120 Mbps Stable Internet
+                          </li>
+
+                          <li>
+                            <i className="far fa-check" />
+                            200 Mbps BDIX Speed
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            8K YouTube & Facebook Streaming
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Pure Optical Fiber
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Unlimited Usage
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Low Latancy
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Multiple Device Support
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            24/7 Customer Support
+                          </li>
+                        </ul>
+                        <div className="price-button">
+                          <h3>
+                            <i>৳</i>8000
+                            <span>/mo</span>
+                          </h3>
+                          <Link href="contact" className="theme-btn">
+                            <span>Get Started</span>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+          </Tab.Pane>
+          <Tab.Pane eventKey="enterprise" className="tab-pane fade">
+            {activeTab === "enterprise" && (
+              <div className="row pt-5 g-4">
+                <div className="pricing-wrapper">
+                  <div className="row justify-content-between align-items-center">
+                    <div className="col-xxl-6 col-xl-6 col-lg-12">
+                      <div className="pricing-content-box d-flex align-items-center justify-content-between">
+                        <div className="price-content">
+                          <h3>Enterprise Packages</h3>
+
+                          <span class="cardPrice1">
+                            <h2>20 Mbps dedicated bandwidth</h2>
+                          </span>
+                        </div>
+                        {/* <div className="price-icon">
+                          <div className="icon">
+                            <i className="flaticon-television" />
+                          </div>
+                          <div className="icon">
+                            <i className="flaticon-smartphone" />
+                          </div>
+                          <div className="icon">
+                            <i className="flaticon-connection" />
+                          </div>
+                        </div> */}
+                      </div>
+                    </div>
+                    <div className="col-xxl-5 col-xl-6 col-lg-12">
+                      <div className="pricing-list-items d-flex align-items-center">
+                        <ul className="price-list">
+                          {/* <li>
+                            <i className="far fa-check" />
+                            25 Mbps Stable Internet 
+                          </li> */}
+
+                          <li>
+                            <i className="far fa-check" />
+                            Unlimited Mbps BDIX Speed
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Symmetric(equal upload and download speed)
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            100% Fiber optic
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Static Ip (Available Optional)
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Uptime Guarantee (99.9% With SLA support)
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Customer support(24/7 Priority Business Support)
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Suitable for Offices,IT companies,Call
+                            Centres,Corporate Use
+                          </li>
+                          <li>
+                            <i className="far fa-check" />
+                            Customization (Packages can be tailored as per business needs)
+                          </li>
+                        </ul>
+                        {/* <div className="price-button">
+                          <h3>
+                            <i>৳</i>2000
+                            <span>/mo</span>
+                          </h3>
+                          <Link href="contact" className="theme-btn">
+                            <span>Get Started</span>
+                          </Link>
+                        </div> */}
                       </div>
                     </div>
                   </div>

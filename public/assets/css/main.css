@@ -3809,6 +3809,13 @@ input.main-search-input::placeholder {
   border: 1px solid #000000;
 }
 
+@media(max-width: 475px){
+   .custom-tab{
+    padding: 0px 10px;
+    padding-top: 22px;
+   }
+}
+
 .active-tab {
   color: white !important; 
   font-weight: 600;
@@ -10353,7 +10360,17 @@ background: linear-gradient(var(--angle), oklch(56% 0.091 192), oklch(66.1% 0.08
   padding: 0;
   position: relative;
   display: inline-block;
-  text-align: left;
+  /* text-align: start; */
+ 
+}
+@media(max-width: 675px){
+  .price-list{
+      margin: 0 auto;
+      padding: 0;
+      position: relative;
+      display: inline-block;
+      text-align: start;
+  }
 }
 .pricing-card-items .price-list li:not(:last-child) {
   margin-bottom: 10px;
@@ -10398,6 +10415,7 @@ background: linear-gradient(var(--angle), oklch(56% 0.091 192), oklch(66.1% 0.08
 .pricing-wrapper .pricing-content-box .price-content h3 {
   font-size: 28px;
   margin-bottom: 10px;
+
 }
 .pricing-wrapper .pricing-content-box .price-content span em {
   color: var(--theme);
@@ -10409,10 +10427,11 @@ background: linear-gradient(var(--angle), oklch(56% 0.091 192), oklch(66.1% 0.08
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 25px;
+  gap: 5px;
   border: 1px solid #E9EDF3;
   border-radius: 50px;
   padding: 20px;
+  
 }
 .pricing-wrapper .pricing-content-box .price-icon .icon {
   height: 60px;
@@ -10496,12 +10515,16 @@ background: linear-gradient(var(--angle), oklch(56% 0.091 192), oklch(66.1% 0.08
 }
 .pricing-wrapper.active .pricing-content-box .price-content p {
   color: var(--white);
+  margin-left: 10px;
+  padding-left: 10px;
 }
 .pricing-wrapper.active .pricing-content-box .price-content h3 {
   color: var(--white);
+ 
 }
 .pricing-wrapper.active .pricing-content-box .price-content span {
   color: var(--white);
+
 }
 .pricing-wrapper.active .pricing-content-box .price-content span em {
   color: var(--white);
