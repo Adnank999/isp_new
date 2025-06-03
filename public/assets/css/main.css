@@ -7550,6 +7550,7 @@ background: linear-gradient(var(--angle), oklch(56% 0.091 192), oklch(66.1% 0.08
   border-bottom: 1px solid var(--border);
   padding-bottom: 30px;
 }
+
 .shop-details-wrapper .product-details-content .price-list h3 {
   font-size: 40px;
 }
@@ -10361,6 +10362,7 @@ background: linear-gradient(var(--angle), oklch(56% 0.091 192), oklch(66.1% 0.08
   position: relative;
   display: inline-block;
   /* text-align: start; */
+  
  
 }
 @media(max-width: 675px){
@@ -10370,6 +10372,9 @@ background: linear-gradient(var(--angle), oklch(56% 0.091 192), oklch(66.1% 0.08
       position: relative;
       display: inline-block;
       text-align: start;
+      /* word-break: break-word; */
+   
+     
   }
 }
 .pricing-card-items .price-list li:not(:last-child) {
@@ -10464,6 +10469,7 @@ background: linear-gradient(var(--angle), oklch(56% 0.091 192), oklch(66.1% 0.08
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   margin-right: 45px;
+  
 }
 @media (max-width: 1399px) {
   .pricing-wrapper .pricing-list-items .price-list {

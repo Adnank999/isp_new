@@ -505,7 +505,7 @@ export const MobileMenu = ({ menus, single }) => {
                 <i className="far fa-plus" />
               </a> */}
             </li>
-            <li>
+            {/* <li>
               <a href="#" onClick={() => activeMenuSet("Blog")}>
                 Blog
                 <i className="fas fa-angle-down" />
@@ -525,10 +525,8 @@ export const MobileMenu = ({ menus, single }) => {
               >
                 <i className="far fa-plus" />
               </a>
-            </li>
-            <li className="mean-last">
-              <Link href="contact">Contact</Link>
-            </li>
+            </li> */}
+            
           </Fragment>
         )}
       </ul>

@@ -18,9 +18,7 @@ const page = () => {
                     </h2>
                   </div>
                   <p className="mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".4s">
-                    Sed ut perspiciatis unde omnis iste natus error sit
-                    voluptatem accusantium doloremque laudantium, totam rem
-                    aperiam, eaque inventore
+                    Feel Free to Contact us for any assistance.
                   </p>
                   <div className="row g-4 mt-3">
                     <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">

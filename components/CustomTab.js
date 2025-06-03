@@ -875,8 +875,8 @@ const CustomTab = () => {
                         </div> */}
                       </div>
                     </div>
-                    <div className="col-xxl-5 col-xl-6 col-lg-12">
-                      <div className="pricing-list-items d-flex align-items-center">
+                    <div className="col-xxl-6 col-xl-6 col-lg-12">
+                      <div className="pricing-list-items  align-items-center">
                         <ul className="price-list">
                           {/* <li>
                             <i className="far fa-check" />
@@ -914,18 +914,11 @@ const CustomTab = () => {
                           </li>
                           <li>
                             <i className="far fa-check" />
-                            Customization (Packages can be tailored as per business needs)
+                            Customization (Packages can be tailored as per
+                            business needs)
                           </li>
                         </ul>
-                        {/* <div className="price-button">
-                          <h3>
-                            <i>৳</i>2000
-                            <span>/mo</span>
-                          </h3>
-                          <Link href="contact" className="theme-btn">
-                            <span>Get Started</span>
-                          </Link>
-                        </div> */}
+                       
                       </div>
                     </div>
                   </div>

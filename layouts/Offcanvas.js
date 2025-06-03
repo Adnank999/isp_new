@@ -11,7 +11,7 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo/logo.svg" alt="logo-img" />
+                    <img src="assets/img/logo/cclogo.png" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="offcanvas__close">
@@ -20,14 +20,10 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                   </button>
                 </div>
               </div>
-              <p className="d-none d-xl-block">
-                Ne summo dictas pertinacia nam. Illum cetero vocent ei vim, case
-                regione signiferumque vim te. Ex mea quem munere lobortis. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse
-                cillum.
-              </p>
+              
               <div className="mobile-menu fix mb-3 mean-container">
-                <MobileMenu single={single} />
+                {/* <MobileMenu single={single} /> */}
+                     <MobileMenu />
               </div>
               <div className="offcanvas__contact">
                 <h4>Contact Info</h4>
@@ -38,7 +34,7 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                       Umesh Datta road, Chak bazar, Dhaka, Bangladesh.
                       </a>
                     </div>
                   </li>
@@ -47,14 +43,14 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                       <i className="fal fa-envelope" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:info@netband.com">
-                        <span className="mailto:info@netband.com">
-                          info@netband.com
+                      <a href="mailto:info@internetcherry.com">
+                        <span className="mailto:info@internetcherry.com">
+                           info@internetcherry.com
                         </span>
                       </a>
                     </div>
                   </li>
-                  <li className="d-flex align-items-center">
+                  {/* <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="fal fa-clock" />
                     </div>
@@ -63,13 +59,13 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                         Mod-friday, 09am -05pm
                       </a>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+11002345909</a>
+                      <a href="tel:+09613338833">+09613338833</a>
                     </div>
                   </li>
                 </ul>
