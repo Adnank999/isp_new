@@ -282,7 +282,10 @@ const Menus = ({ single, menus }) => {
             <Link href="contact">Contact</Link>
           </li>
           <li>
-            <Link href="https://www.google.com" target="_blank">
+            <Link
+              href="https://radius.internetcherry.com/user/login.php"
+              target="_blank"
+            >
               Pay Bills
               {/* <i className="fas fa-angle-down" /> */}
             </Link>
@@ -315,7 +318,6 @@ const Menus = ({ single, menus }) => {
               </li>
             </ul>
           </li> */}
-          
         </ul>
       )}
     </nav>

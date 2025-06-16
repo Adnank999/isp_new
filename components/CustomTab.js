@@ -6,6 +6,10 @@ import Link from "next/link";
 
 const CustomTab = () => {
   const [activeTab, setActiveTab] = useState("home");
+  
+
+ 
+
   return (
     <div className="custom-tab-container">
       <Tab.Container
@@ -25,6 +29,7 @@ const CustomTab = () => {
                 eventKey={"home"}
                 href="#home"
                 className={activeTab === "home" ? "active-tab" : ""}
+              
               >
                 Home
               </Nav.Link>

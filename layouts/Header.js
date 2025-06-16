@@ -256,9 +256,12 @@ const Header2 = ({ openSidebar, single, menus }) => {
                 </div>
                 <SearchBtn /> */}
                 <div className="">
-                  <Link href="https://wa.me/+09613338833" className="" style={{fontSize: "2.5rem", color: "#25D366"}}>
+                  <Link
+                    href="https://wa.me/+8801897664670"
+                    className=""
+                    style={{ fontSize: "2.5rem", color: "#25D366" }}
+                  >
                     <i className="fab fa-whatsapp" aria-hidden="true" />
-                    
                   </Link>
                 </div>
                 <div className="header__hamburger d-xl-block my-auto">

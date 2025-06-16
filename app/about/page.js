@@ -201,9 +201,10 @@ const page = () => {
                 </span>
               </Link>
               <span className="or">or</span>
-              <a href="tel:+1718-904-4450" className="theme-btn bg-white">
+              <a href="tel:+8801897664670" className="theme-btn bg-white">
                 <span>
-                  +1718-904-4450 <i className="fas fa-chevron-right" />
+                  +8801897664670
+                  <i className="fas fa-chevron-right" />
                 </span>
               </a>
             </div>
@@ -227,9 +228,7 @@ const page = () => {
               <h2>
                 + <Counter end={1000} />
               </h2>
-              <p>
-                Customers
-              </p>
+              <p>Customers</p>
             </div>
             <div className="counter-items">
               <h2>
@@ -240,7 +239,6 @@ const page = () => {
                 OF FIBERS
               </p>
             </div>
-           
           </div>
         </div>
       </section>

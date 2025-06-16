@@ -255,7 +255,10 @@ const Footer2 = () => {
                     info@internetcherry.com
                   </a>
                   <div className="social-icon d-flex align-items-center">
-                    <a href="#">
+                    <a
+                      href="https://web.facebook.com/profile.php?id=61559085577078
+                    "
+                    >
                       <i className="fab fa-facebook-f" />
                     </a>
                     <a href="#">
@@ -336,7 +339,9 @@ const Footer2 = () => {
                 <div className="footer-address-text">
                   <p>Umesh Datta road, Chak bazar, Dhaka, Bangladesh.</p>
                   <h5>Call Us:</h5>
-                  <a style={{color: "#ffffff"}} href="tel:+09613338833">+09613338833</a>
+                  <a style={{ color: "#ffffff" }} href="tel:+09613338833">
+                    +8801897664670
+                  </a>
                 </div>
               </div>
             </div>
