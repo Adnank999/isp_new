@@ -376,7 +376,7 @@ const page = () => {
         <div className="container custom-container-2">
           <div className="cta-subscribe-wrapper">
             <div className="row justify-content-center">
-              <div className="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+              <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                 <div className="cta-subscribe-image">
                   <img src="assets/img/about/aboutTv.jpg" alt="img" />
                 </div>
