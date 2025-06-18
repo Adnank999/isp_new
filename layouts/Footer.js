@@ -242,7 +242,7 @@ const Footer2 = () => {
               <div className="single-footer-widget">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="assets/img/logo/cclogo.png" alt="logo-img" />
+                    <img src="assets/img/logo/footer_logo.png" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="footer-content">
