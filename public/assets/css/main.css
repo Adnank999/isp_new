@@ -4752,7 +4752,7 @@ input.main-search-input::placeholder {
 }
 .about-video-container {
   width: 100%;
-  height: 30%;
+  height: 500px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -4764,7 +4764,7 @@ input.main-search-input::placeholder {
 .about-video {
   width: 100%;
   height: 100%;
-  object-fit: cover; /*
+  object-fit: contain; /*
 }
 
 
