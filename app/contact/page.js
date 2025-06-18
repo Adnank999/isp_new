@@ -42,7 +42,6 @@ const page = () => {
                         <div className="content">
                           <h5>Phone</h5>
                           <a href="tel:+09613338833">+09613338833 </a> <br />
-                       
                         </div>
                       </div>
                     </div>
@@ -53,7 +52,10 @@ const page = () => {
                         </div>
                         <div className="content">
                           <h5>Email</h5>
-                          <a href="mailto:info@internetcherry.com" className="link">
+                          <a
+                            href="mailto:info@internetcherry.com"
+                            className="link"
+                          >
                             info@internetcherry.com
                           </a>{" "}
                           <br />
@@ -71,17 +73,16 @@ const page = () => {
                         <div className="content">
                           <h5>Social</h5>
                           <div className="social-icon d-flex align-items-center">
-                            <a href="#">
+                            <a
+                              href="https://web.facebook.com/profile.php?id=61559085577078"
+                            >
                               <i className="fab fa-facebook-f" />
                             </a>
-                            <a href="#">
-                              <i className="fab fa-twitter" />
+                            <a href="https://www.instagram.com/cherryinternet/">
+                              <i className="fab fa-instagram" />
                             </a>
-                            <a href="#">
-                              <i className="fab fa-vimeo-v" />
-                            </a>
-                            <a href="#">
-                              <i className="fab fa-pinterest-p" />
+                            <a href="https://www.tiktok.com/@cherryinternet">
+                              <i className="fab fa-tiktok" />
                             </a>
                           </div>
                         </div>
@@ -185,7 +186,6 @@ const page = () => {
             allowFullScreen=""
             loading="lazy"
           />
-        
         </div>
       </div>
     </NetBandLayout>
