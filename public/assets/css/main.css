@@ -4750,6 +4750,24 @@ input.main-search-input::placeholder {
   position: relative;
   padding-left: 25px;
 }
+.about-video-container {
+  width: 100%;
+  height: 30%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.about-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*
+}
+
+
 .about-wrapper .about-image-items::before {
   position: absolute;
   top: 100px;

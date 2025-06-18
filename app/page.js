@@ -375,10 +375,10 @@ const page = () => {
       <section className="trusted-client-section fix section-padding">
         <div className="container custom-container-2">
           <div className="cta-subscribe-wrapper">
-            <div className="row justify-content-between">
-              <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
+            <div className="row justify-content-center">
+              <div className="col-lg-5 wow fadeInUp" data-wow-delay=".3s">
                 <div className="cta-subscribe-image">
-                  <img src="assets/img/feature/trusted.jpg" alt="img" />
+                  <img src="assets/img/about/aboutTv.jpg" alt="img" />
                 </div>
               </div>
               <div className="col-lg-5 mt-5 mt-md-0">

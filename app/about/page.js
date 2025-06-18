@@ -19,12 +19,21 @@ const page = () => {
               <div className="col-lg-8">
                 <div className="about-image-items big-image">
                   <div
-                    className="about-image bg-cover wow fadeInLeft"
+                    className="about-video-container wow fadeInLeft"
                     data-wow-delay=".3s"
-                    style={{
-                      backgroundImage: 'url("assets/img/about/about.png")',
-                    }}
-                  ></div>
+                  >
+                    <video
+                      className="about-video"
+                      autoPlay
+                      muted
+                      playsInline
+                    
+                    >
+                      <source src="assets/img/about/about.mp4" type="video/mp4" />
+                     
+                      Your browser does not support the video tag.
+                    </video>
+                  </div>
                 </div>
               </div>
               <div className="col-lg-4 mt-5 mt-lg-0">
@@ -134,10 +143,10 @@ const page = () => {
       <section className="trusted-client-section fix section-padding">
         <div className="container custom-container-2">
           <div className="cta-subscribe-wrapper">
-            <div className="row justify-content-between">
-              <div className="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
+            <div className="row justify-content-center">
+              <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                 <div className="cta-subscribe-image">
-                  <img src="assets/img/feature/trusted.jpg" alt="img" />
+                  <img src="assets/img/about/aboutTv.jpg" alt="img" />
                 </div>
               </div>
               <div className="col-lg-5 mt-5 mt-md-0">
