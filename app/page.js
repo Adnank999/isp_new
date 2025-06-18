@@ -14,10 +14,7 @@ const page = () => {
       {/*<< Hero Section Start >>*/}
       <Home1 />
       {/*<< Network Solutions Section Start >>*/}
-      <section
-        className="network-solution-section section-padding fix pt-10"
-      
-      >
+      <section className="network-solution-section section-padding fix pt-10">
         <div className="container custom-container-2">
           <div className="network-solution-wrapper">
             <div className="section-title text-center">
@@ -949,7 +946,7 @@ const page = () => {
       {/*<< Cta Parallax Section Start >>*/}
       <div
         className="cta-parallax-section bg-cover"
-        style={{ backgroundImage: 'url("assets/img/banner/02.png")' }}
+        style={{ backgroundImage: 'url("assets/img/paralax.jpg")' }}
       >
         <div className="container">
           <div className="cta-parallax-wrapper text-center">

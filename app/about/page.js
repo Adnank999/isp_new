@@ -22,15 +22,11 @@ const page = () => {
                     className="about-video-container wow fadeInLeft"
                     data-wow-delay=".3s"
                   >
-                    <video
-                      className="about-video"
-                      autoPlay
-                      muted
-                      playsInline
-                    
-                    >
-                      <source src="assets/img/about/about.mp4" type="video/mp4" />
-                     
+                    <video className="about-video" autoPlay muted playsInline>
+                      <source
+                        src="assets/img/about/aboutHero.mp4"
+                        type="video/mp4"
+                      />
                       Your browser does not support the video tag.
                     </video>
                   </div>
@@ -144,9 +140,9 @@ const page = () => {
         <div className="container custom-container-2">
           <div className="cta-subscribe-wrapper">
             <div className="row justify-content-center">
-              <div className="col-lg-4 wow fadeInUp" data-wow-delay=".3s">
+              <div className="col-lg-6 wow fadeInUp" data-wow-delay=".3s">
                 <div className="cta-subscribe-image">
-                  <img src="assets/img/about/aboutTv.jpg" alt="img" />
+                  <img src="assets/img/about/aboutMusic.jpg" alt="img" />
                 </div>
               </div>
               <div className="col-lg-5 mt-5 mt-md-0">
@@ -195,7 +191,7 @@ const page = () => {
       {/*<< Cta Parallax Section Start >>*/}
       <div
         className="cta-parallax-section bg-cover"
-        style={{ backgroundImage: 'url("assets/img/banner/02.png")' }}
+        style={{ backgroundImage: 'url("assets/img/paralax.jpg")' }}
       >
         <div className="container">
           <div className="cta-parallax-wrapper text-center">
