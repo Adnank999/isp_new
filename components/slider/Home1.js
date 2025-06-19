@@ -20,6 +20,7 @@ const Home1 = () => {
     handleAnimations();
     const swiperInstance = swiperRef.current.swiper;
     const onSlideChange = () => {
+   
       handleAnimations();
     };
     swiperInstance.on("slideChange", onSlideChange);
@@ -42,6 +43,7 @@ const Home1 = () => {
         ref={swiperRef}
         {...sliderProps.home1}
         className="swiper hero-slider"
+       
       >
         <SwiperSlide className="swiper-slide">
           <div
@@ -57,7 +59,7 @@ const Home1 = () => {
                     data-delay="1.3s"
                     data-duration=".3s"
                   >
-                    Best Solution
+                    Dhaka's Internet, Elevated by Cherry.
                   </h6>
                   <h1
                     className="text-white"
@@ -65,21 +67,22 @@ const Home1 = () => {
                     data-delay="1.5s"
                     data-duration=".3s"
                   >
-                    Unbeatable High <br /> Speed  Internet
+                    Your Connection,
+                    <br /> Our Priority.
                   </h1>
                   <h2
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                    Starts ৳500 <span>/ Month</span>
+                    Home, Starts ৳700 <span>/ Month</span>
                   </h2>
                   <p
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                    Ultra Fast internet
+                    The Future of Connectivity, Now.
                   </p>
                   {/* <div className="hero-button">
                     <Link
@@ -134,7 +137,7 @@ const Home1 = () => {
                     data-delay="1.3s"
                     data-duration=".3s"
                   >
-                    Reliable Internet Service
+                    Connecting Dhaka's Homes, Offices & Corporations.
                   </h6>
                   <h1
                     className="text-white"
@@ -142,22 +145,22 @@ const Home1 = () => {
                     data-delay="1.5s"
                     data-duration=".3s"
                   >
-                    Seamless Online
-                    <br /> Experiences
+                    Cutting-Edge Internet Solutions
+              
                   </h1>
                   <h2
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                    Starts ৳500 <span>/ Month</span>
+                    SME,Starts ৳2000 <span>/ Month</span>
                   </h2>
                   <p
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                    Ultra Fast internet
+                    Make your Bussiness Simplified..
                   </p>
                   {/* <div className="hero-button">
                     <Link
@@ -212,7 +215,7 @@ const Home1 = () => {
                     data-delay="1.3s"
                     data-duration=".3s"
                   >
-                   Frustration with Slow Speeds?
+                    99.99% Uptime, Uninterrupted Connectivity.
                   </h6>
                   <h1
                     className="text-white"
@@ -220,22 +223,25 @@ const Home1 = () => {
                     data-delay="1.5s"
                     data-duration=".3s"
                   >
-                      We Ensure Buffer-Free Streaming.
+                    Intelligent Networks, Infinite Possibilities for
+                    Large Organization
                   </h1>
-                  <h2
+                  {/* <h2
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                    Starts ৳500 <span>/ Month</span>
-                  </h2>
-                  <p
+              
+                    Experience the Difference and Redefine Internet with <br/>
+                    <span style={{color: "red",fontSize: "50px"}}>Cherry Enterprise.</span>
+                  </h2> */}
+                  {/* <p
                     data-animation="fadeInUp"
                     data-delay="1.7s"
                     data-duration=".3s"
                   >
-                    Ultra Fast internet
-                  </p>
+                    Redefining Internet with Cherry Enterprise.
+                  </p> */}
                   {/* <div className="hero-button">
                     <Link
                       href="/"
