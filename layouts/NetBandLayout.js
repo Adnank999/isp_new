@@ -4,8 +4,9 @@ import ImageView from "@/components/popup/ImageView";
 import { netBandUtility } from "@/utility";
 import { Fragment, useEffect } from "react";
 import Footer from "./Footer";
-import Header from "./Header";
+// import Header from "./Header";
 import Mouse from "./Mouse";
+import HeaderCustom from "./HeaderCustom";
 const NetBandLayout = ({
   children,
   header,
@@ -25,7 +26,8 @@ const NetBandLayout = ({
       <ImageView />
       <EmbedPopup />
       <Mouse />
-      <Header header={header} single={single} menus={menus} />
+      {/* <Header header={header} single={single} menus={menus} /> */}
+      <HeaderCustom header={header} single={single} menus={menus} />
       {children}
       <Footer footer={footer} />
     </Fragment>

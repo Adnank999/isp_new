@@ -165,41 +165,6 @@ const Header1 = ({ openSidebar, single, menus }) => {
 const Header2 = ({ openSidebar, single, menus }) => {
   return (
     <header>
-      {/* <div className="header-tops-section fix">
-        <div className="container-fluid">
-          <div className="header-tops-wrapper">
-            <ul className="contact-list">
-              <li>
-                <i className="far fa-envelope" />
-                <a href="mailto:info@internetcherry.com" className="link">
-                  info@internetcherry.com
-                </a>
-              </li>
-              <li>
-                <i className="fas fa-phone-alt" />
-                <a href="tel:+09613338833">+09613338833</a>
-              </li>
-            </ul>
-            <div className="top-right">
-              <div className="social-icon d-flex align-items-center">
-                <span>Follow Us:</span>
-                <a href="#">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-pinterest-p" />
-                </a>
-                <a href="#">
-                  <i className="fab fa-youtube" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
       <div id="header-sticky" className="header-2">
         <div className="container-fluid">
           <div className="mega-menu-wrapper">
@@ -217,44 +182,7 @@ const Header2 = ({ openSidebar, single, menus }) => {
                     <Menus single={single} menus={menus} />
                   </div>
                 </div>
-                {/* <div className="menu-cart">
-                  <div className="cart-box">
-                    <ul>
-                      <li>
-                        <img src="assets/img/shop/cart-2.jpg" alt="image" />
-                        <div className="cart-product">
-                          <a href="#0">Wi-Fi Router</a>
-                          <span>168$</span>
-                        </div>
-                      </li>
-                    </ul>
-                    <ul>
-                      <li className="border-none">
-                        <img src="assets/img/shop/cart-3.jpg" alt="image" />
-                        <div className="cart-product">
-                          <a href="#0">TV Box</a>
-                          <span>198$</span>
-                        </div>
-                      </li>
-                    </ul>
-                    <div className="shopping-items d-flex align-items-center justify-content-between">
-                      <span>Shopping : $20.00</span>
-                      <span>Total : $168.00</span>
-                    </div>
-                    <div className="cart-button d-flex justify-content-between mb-4">
-                      <Link href="shop-cart" className="theme-btn">
-                        <span>View Cart</span>
-                      </Link>
-                      <Link href="checkout" className="theme-btn bg-red-2">
-                        <span>Checkout</span>
-                      </Link>
-                    </div>
-                  </div>
-                  <Link href="shop-cart" className="cart-icon">
-                    <i className="far fa-shopping-cart" />
-                  </Link>
-                </div>
-                <SearchBtn /> */}
+                
                 <div className="">
                   <Link
                     href="https://wa.me/+8801897664670"

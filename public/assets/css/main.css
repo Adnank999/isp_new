@@ -7,6 +7,7 @@ Version: 1.0.0
 */
 /*CSS Table Of Content Ends Here*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kode+Mono:wght@400..700&display=swap");
+
 :root {
   --body: #fff;
   --black: #000;
@@ -306,7 +307,7 @@ a {
   text-decoration: none;
   outline: none !important;
   cursor: pointer;
-  color: var(--header);
+  color: black;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -1547,7 +1548,7 @@ input.main-search-input::placeholder {
   font-size: 16px;
   font-weight: 600;
   color: var(--header);
-  padding: 30px 0;
+  padding: 8px 0;
   text-align: left;
   position: relative;
   text-transform: capitalize;
@@ -1834,6 +1835,7 @@ input.main-search-input::placeholder {
   -webkit-box-shadow: var(---box-shadow);
           box-shadow: var(---box-shadow);
   z-index: 999;
+
 }
 .header-2::before {
   position: absolute;
@@ -1855,11 +1857,13 @@ input.main-search-input::placeholder {
 
 .header-2 .container-fluid {
   padding: 0 130px;
+
   /* background-color: black; */
 }
 @media (max-width: 1399px) {
   .header-2 .container-fluid {
     padding: 0 50px;
+    
   }
 }
 @media (max-width: 991px) {
@@ -2114,6 +2118,7 @@ input.main-search-input::placeholder {
 }
 .header-tops-section .container-fluid {
   padding: 0 130px;
+  
 }
 @media (max-width: 1399px) {
   .header-tops-section .container-fluid {
@@ -2403,12 +2408,12 @@ input.main-search-input::placeholder {
 }
 
 .sticky {
-  position: fixed !important;
+  /* position: fixed !important;
   top: 0 !important;
-  left: 0;
+  left: 0; */
   width: 100%;
   z-index: 100;
-  background-color: var(--white);
+  /* background-color: var(--white); */
   -webkit-box-shadow: var(---box-shadow);
           box-shadow: var(---box-shadow);
   -webkit-transition: all 0.9s;
@@ -2877,6 +2882,7 @@ input.main-search-input::placeholder {
 
 .hero-1 {
   position: relative;
+  margin-top: 50px;
 }
 .hero-1 .array-button {
   position: initial;
@@ -2950,7 +2956,7 @@ input.main-search-input::placeholder {
   height: 100%;
   content: "";
   background-color: rgb(3, 0, 17);
-  opacity: 0.749;
+  opacity: 0.249;
 }
 .hero-1 .hero-content {
   position: relative;

@@ -20,10 +20,10 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                   </button>
                 </div>
               </div>
-              
+
               <div className="mobile-menu fix mb-3 mean-container">
                 {/* <MobileMenu single={single} /> */}
-                     <MobileMenu />
+                <MobileMenu />
               </div>
               <div className="offcanvas__contact">
                 <h4>Contact Info</h4>
@@ -34,7 +34,7 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                       Umesh Datta road, Chak bazar, Dhaka, Bangladesh.
+                        House 18 road 24 Banani-K Dhaka 1213, Bangladesh.
                       </a>
                     </div>
                   </li>
@@ -45,7 +45,7 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                     <div className="offcanvas__contact-text">
                       <a href="mailto:info@internetcherry.com">
                         <span className="mailto:info@internetcherry.com">
-                           info@internetcherry.com
+                          info@internetcherry.com
                         </span>
                       </a>
                     </div>
@@ -65,7 +65,7 @@ const Offcanvas = ({ closeSidebar, sidebar, single }) => {
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+09613338833">+09613338833</a>
+                      <a href="tel:09613338833">09613338833</a>
                     </div>
                   </li>
                 </ul>
