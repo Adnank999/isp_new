@@ -179,10 +179,13 @@ const page = () => {
       <div className="map-section">
         <div className="google-map wow fadeInUp" data-wow-delay=".7s">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.749415210744!2d90.39504550000001!3d23.720641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8e0d5aeeba9%3A0xf8951c7b6d036497!2sUmesh%20Datta%20Rd%2C%20Dhaka!5e0!3m2!1sde!2sbd!4v1748512378888!5m2!1sde!2sbd"
-            style={{ border: 0 }}
-            allowFullScreen=""
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1534.904510478344!2d90.40735961168139!3d23.79587582475622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sroad%2024%20Banani-k!5e0!3m2!1sen!2sbd!4v1752041021299!5m2!1sen!2sbd"
+            width="600"
+            height="450"
+       
+            allowfullscreen=""
             loading="lazy"
+          
           />
         </div>
       </div>
