@@ -334,7 +334,7 @@ const Footer2 = () => {
                   <h5>Address:</h5>
                 </div>
                 <div className="footer-address-text">
-                  <p>Umesh Datta road, Chak bazar, Dhaka, Bangladesh.</p>
+                  <p>House 18 road 24 Banani-K Dhaka 1213, Bangladesh.</p>
                   <h5>Call Us:</h5>
                   <a style={{ color: "#ffffff" }} href="tel: 09613338833">
                     09613338833

@@ -24,9 +24,7 @@ const page = () => {
                     style={{
                       backgroundImage: 'url("assets/img/about/aboutHero.jpg")',
                     }}
-                  >
-                   
-                  </div>
+                  ></div>
                 </div>
               </div>
               <div className="col-lg-4 mt-5 mt-lg-0">
@@ -68,7 +66,7 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>Broadband</h3>
-                  <p>We approached WiaTech with complex project deliver</p>
+                  <p>We provide premium broadband service.</p>
                   {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
                   </Link> */}
@@ -85,7 +83,9 @@ const page = () => {
                 </div>
                 <div className="content">
                   <h3>WIFI Internet</h3>
-                  <p>We approached WiaTech with complex project deliver</p>
+                  <p>
+                    Experience a fast and reliable connection with our WiFi
+                  </p>
                   {/* <Link href="service-details" className="arrow-icon">
                     <i className="fas fa-chevron-right" />
                   </Link> */}

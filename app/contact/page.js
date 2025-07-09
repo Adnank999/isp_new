@@ -29,7 +29,7 @@ const page = () => {
                         <div className="content">
                           <h5>Location</h5>
                           <p>
-                            Umesh Datta road, Chak bazar, Dhaka, Bangladesh.
+                            House 18 road 24 Banani-K,Dhaka-1213, Bangladesh.
                           </p>
                         </div>
                       </div>
@@ -41,7 +41,7 @@ const page = () => {
                         </div>
                         <div className="content">
                           <h5>Phone</h5>
-                          <a href="tel:+09613338833">+09613338833 </a> <br />
+                          <a href="tel:09613338833">09613338833 </a> <br />
                         </div>
                       </div>
                     </div>
@@ -73,9 +73,7 @@ const page = () => {
                         <div className="content">
                           <h5>Social</h5>
                           <div className="social-icon d-flex align-items-center">
-                            <a
-                              href="https://web.facebook.com/profile.php?id=61559085577078"
-                            >
+                            <a href="https://web.facebook.com/profile.php?id=61559085577078">
                               <i className="fab fa-facebook-f" />
                             </a>
                             <a href="https://www.instagram.com/cherryinternet/">
