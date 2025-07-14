@@ -138,8 +138,7 @@ const HeaderCustom = ({ header, single, menus }) => {
       </header>
     );
   };
-  
-  
+
   return (
     <Fragment>
       {headerChoose(header)}

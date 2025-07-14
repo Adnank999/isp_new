@@ -228,13 +228,13 @@ const page = () => {
             </div>
             <div className="counter-items">
               <h2>
-                + <Counter end={1000} />
+                + <Counter end={5000} />
               </h2>
               <p>Customers</p>
             </div>
             <div className="counter-items">
               <h2>
-                <Counter end={25000} />
+                <Counter end={250000} />
               </h2>
               <p>
                 KILOMETERS <br />

@@ -284,7 +284,7 @@ const Footer2 = () => {
                     <Link href="offers">Offers</Link>
                   </li>
                   <li>
-                    <Link href="about">About company</Link>
+                    <Link href="about">About Us</Link>
                   </li>
                   {/* <li>
                     <Link href="news-details">latest news</Link>
