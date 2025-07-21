@@ -76,7 +76,7 @@ const CustomTab = () => {
                           <h3>Cherry Seed</h3>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice1">
+                          <span className="cardPrice1">
                             <h2>15 Mbps</h2>
                           </span>
                         </div>
@@ -118,9 +118,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>500
+                            <i>৳</i>525
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -137,7 +140,7 @@ const CustomTab = () => {
                           <h3>Cherry Spark</h3>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice2">
+                          <span className="cardPrice2">
                             <h2>25 Mbps</h2>
                           </span>
                         </div>
@@ -179,9 +182,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>700
+                            <i>৳</i>735
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -198,7 +204,7 @@ const CustomTab = () => {
                           <h5>Cherry Bloom</h5>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice3">
+                          <span className="cardPrice3">
                             <h2>40 Mbps</h2>
                           </span>
                         </div>
@@ -243,9 +249,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>1000
+                            <i>৳</i>1050
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -262,7 +271,7 @@ const CustomTab = () => {
                           <h3>Cherry Pop</h3>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice4">
+                          <span className="cardPrice4">
                             <h2>50 Mbps</h2>
                           </span>
                         </div>
@@ -307,9 +316,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>1200
+                            <i>৳</i>1260
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -326,7 +338,7 @@ const CustomTab = () => {
                           <h3>Cherry Rush</h3>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice1">
+                          <span className="cardPrice1">
                             <h2>60 Mbps</h2>
                           </span>
                         </div>
@@ -382,9 +394,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>1500
+                            <i>৳</i>1575
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -401,7 +416,7 @@ const CustomTab = () => {
                           <h3>Cherry Blast</h3>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice2">
+                          <span className="cardPrice2">
                             <h2>80 Mbps</h2>
                           </span>
                         </div>
@@ -457,9 +472,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>2000
+                            <i>৳</i>2100
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -477,7 +495,7 @@ const CustomTab = () => {
                           <h3>Cherry Blaze</h3>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice9">
+                          <span className="cardPrice9">
                             <h2>100 Mbps</h2>
                           </span>
                         </div>
@@ -533,9 +551,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>3000
+                            <i>৳</i>3150
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -553,7 +574,7 @@ const CustomTab = () => {
                           <h3>Cherry Max</h3>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice10">
+                          <span className="cardPrice10">
                             <h2>120 Mbps</h2>
                           </span>
                         </div>
@@ -609,9 +630,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>4000
+                            <i>৳</i>4200
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -634,7 +658,7 @@ const CustomTab = () => {
                           <h3>Basic</h3>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice3">
+                          <span className="cardPrice3">
                             <h2>25 Mbps</h2>
                           </span>
                         </div>
@@ -690,9 +714,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>2000
+                            <i>৳</i>2100
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -709,7 +736,7 @@ const CustomTab = () => {
                           <h3>Startup</h3>
 
                           <p>Installation Charge: none</p>
-                          <span class="cardPrice2">
+                          <span className="cardPrice2">
                             <h2>40 Mbps</h2>
                           </span>
                         </div>
@@ -765,9 +792,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>3000
+                            <i>৳</i>3150
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -840,9 +870,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>4000
+                            <i>৳</i>4200
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -915,9 +948,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>6000
+                            <i>৳</i>6300
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
@@ -990,9 +1026,12 @@ const CustomTab = () => {
                         </ul>
                         <div className="price-button">
                           <h3>
-                            <i>৳</i>8000
+                            <i>৳</i>8400
                             <span>/mo</span>
                           </h3>
+                          <span className="text-xs !no-underline rounded-md px-2 py-1 !text-white bg-red-600">
+                            5% vat include
+                          </span>
                           <Link href="contact" className="theme-btn">
                             <span>Get Started</span>
                           </Link>
