@@ -403,7 +403,7 @@ const page = () => {
                   </h4>
                   <div className="subscribe-plan">
                     <h3 className="price wow fadeInUp" data-wow-delay=".5s">
-                      <span>starts only</span> ৳500<sub>/Mon</sub>
+                      <span>starts only</span> ৳700<sub>/Mon</sub>
                     </h3>
                     <Link
                       href="pricing"
@@ -422,7 +422,7 @@ const page = () => {
       </section>
 
       {/*<< Brand Section Start >>*/}
-      <section className="brand-section fix section-padding pt-0">
+      {/* <section className="brand-section fix section-padding pt-0">
         <div className="container">
           <div className="brand-wrapper">
             <h6 className="text-center wow fadeInUp" data-wow-delay=".3s">
@@ -431,7 +431,7 @@ const page = () => {
             <BrandSlider />
           </div>
         </div>
-      </section>
+      </section> */}
       {/*<< Team Section Start >>*/}
       {/* <section className="team-section section-padding">
         <div className="container">

@@ -2882,7 +2882,7 @@ input.main-search-input::placeholder {
 
 .hero-1 {
   position: relative;
-  margin-top: 50px;
+
 }
 .hero-1 .array-button {
   position: initial;
@@ -6283,14 +6283,14 @@ background: linear-gradient(var(--angle), oklch(34.5% 0.092 33), oklch(49.8% 0.1
 
 /* Track */
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 5px var(--theme);
-          box-shadow: inset 0 0 5px var(--theme);
+  -webkit-box-shadow: inset 0 0 5px #ffffff;
+          box-shadow: inset 0 0 5px #ffffff;
   border-radius: 5px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--theme);
+  background: #0C1020;
   border-radius: 10px;
 }
 

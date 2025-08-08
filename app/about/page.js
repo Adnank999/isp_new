@@ -167,7 +167,7 @@ const page = () => {
                   </h4>
                   <div className="subscribe-plan">
                     <h3 className="price wow fadeInUp" data-wow-delay=".5s">
-                      <span>starts only</span> ৳500<sub>/Mon</sub>
+                      <span>starts only</span> ৳700<sub>/Mon</sub>
                     </h3>
                     <Link
                       href="pricing"

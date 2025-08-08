@@ -13,8 +13,8 @@ const Pricing = () => {
           </h2>
           <p>We offer straightforward plans with no hidden charges.</p>
         </div>
-        <div className="row">
-          <div
+        <div className="row justify-center">
+          {/* <div
             className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
             data-wow-delay=".2s"
           >
@@ -42,7 +42,7 @@ const Pricing = () => {
                 <span>Get started</span>
               </Link>
             </div>
-          </div>
+          </div> */}
           <div
             className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
             data-wow-delay=".4s"
@@ -107,7 +107,7 @@ const Pricing = () => {
             </div>
           </div>
 
-          <div
+          {/* <div
             className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
             data-wow-delay=".2s"
           >
@@ -284,7 +284,7 @@ const Pricing = () => {
                 <span>Get started</span>
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
